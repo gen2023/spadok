@@ -20,7 +20,7 @@ import '../components/Table/table.css';
 class TablePage extends Component {
   render() {
     return (
-      <div className="content">
+      <div className="contentTable">
         <Baner />
         <div className="contentRow blockRowJs">
           <div className="table">

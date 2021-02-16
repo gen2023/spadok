@@ -12,14 +12,16 @@ function Block7() {
         </div>
         <div className="tableCol"></div>
         <div className="tableCol">
-          <img src={imgOk} alt="yes" />
+          <img src={imgOk} alt="yes" className="imgOk" />
         </div>
         <div className="tableCol">
-          <img src={imgOk} alt="yes" />
+          <img src={imgOk} alt="yes" className="imgOk" />
         </div>
       </div>
       <div className="tableRow">
-        <div className="tableColName">+ решение 1й актуальной ситуации рисованием</div>
+        <div className="tableColName">
+          + решение 1й актуальной ситуации рисованием
+        </div>
         <div className="tableCol"></div>
         <div className="tableCol">
           <span className="textNumber">1</span>

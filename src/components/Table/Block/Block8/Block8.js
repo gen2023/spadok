@@ -11,17 +11,19 @@ function Block8() {
           диагностики и выведения эмоции за пределы тела и их утилизация.
         </div>
         <div className="tableCol">
-          <img src={imgOk} alt="yes" />
+          <img src={imgOk} alt="yes" className="imgOk" />
         </div>
         <div className="tableCol">
-          <img src={imgOk} alt="yes" />
+          <img src={imgOk} alt="yes" className="imgOk" />
         </div>
         <div className="tableCol">
-          <img src={imgOk} alt="yes" />
+          <img src={imgOk} alt="yes" className="imgOk" />
         </div>
       </div>
       <div className="tableRow">
-        <div className="tableColName">+ решение актуальных ситуаций (практическое занятие) </div>
+        <div className="tableColName">
+          + решение актуальных ситуаций (практическое занятие)
+        </div>
         <div className="tableCol">
           <span className="textNumber">1</span>
         </div>
@@ -32,7 +34,6 @@ function Block8() {
           <span className="textNumber">3</span>
         </div>
       </div>
-      
     </>
   );
 }

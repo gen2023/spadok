@@ -4,10 +4,16 @@ function TableHeader() {
   return (
     <>
       <div className="tableRow">
-        <div className="tableColName center">Пакет</div>
-        <div className="tableCol">Базовый</div>
-        <div className="tableCol">Стандарт</div>
-        <div className="tableCol">Эксперт</div>
+        <div className="tableColNameHeader"></div>
+        <div className="tableCol tableHeader">
+          <span className="turn">Базовый</span>
+        </div>
+        <div className="tableCol tableHeader">
+          <span className="turn">Стандарт</span>
+        </div>
+        <div className="tableCol tableHeader">
+          <span className="turn">Эксперт</span>
+        </div>
       </div>
     </>
   );

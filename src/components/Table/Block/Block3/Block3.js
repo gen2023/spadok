@@ -11,13 +11,13 @@ function Block3() {
           + Ваши первые результаты
         </div>
         <div className="tableCol">
-          <img src={imgOk} alt="yes" />
+          <img src={imgOk} alt="yes" className="imgOk" />
         </div>
         <div className="tableCol">
-          <img src={imgOk} alt="yes" />
+          <img src={imgOk} alt="yes" className="imgOk" />
         </div>
         <div className="tableCol">
-          <img src={imgOk} alt="yes" />
+          <img src={imgOk} alt="yes" className="imgOk" />
         </div>
       </div>
     </>

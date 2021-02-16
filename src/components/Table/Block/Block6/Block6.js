@@ -11,47 +11,47 @@ function Block6() {
           Рунические ставы &#171;Звездочка&#187;, &#171;Елка&#187;
         </div>
         <div className="tableCol">
-          <img src={imgOk} alt="yes" />
+          <img src={imgOk} alt="yes" className="imgOk" />
         </div>
         <div className="tableCol">
-          <img src={imgOk} alt="yes" />
+          <img src={imgOk} alt="yes" className="imgOk" />
         </div>
         <div className="tableCol">
-          <img src={imgOk} alt="yes" />
+          <img src={imgOk} alt="yes" className="imgOk" />
         </div>
       </div>
       <div className="tableRow">
         <div className="tableColName">+ свойства и характеристика</div>
         <div className="tableCol">
-          <img src={imgOk} alt="yes" />
+          <img src={imgOk} alt="yes" className="imgOk" />
         </div>
         <div className="tableCol">
-          <img src={imgOk} alt="yes" />
+          <img src={imgOk} alt="yes" className="imgOk" />
         </div>
         <div className="tableCol">
-          <img src={imgOk} alt="yes" />
+          <img src={imgOk} alt="yes" className="imgOk" />
         </div>
       </div>
       <div className="tableRow">
         <div className="tableColName">+ практическое применение в быту</div>
         <div className="tableCol">
-          <img src={imgOk} alt="yes" />
+          <img src={imgOk} alt="yes" className="imgOk" />
         </div>
         <div className="tableCol">
-          <img src={imgOk} alt="yes" />
+          <img src={imgOk} alt="yes" className="imgOk" />
         </div>
         <div className="tableCol">
-          <img src={imgOk} alt="yes" />
+          <img src={imgOk} alt="yes" className="imgOk" />
         </div>
       </div>
       <div className="tableRow">
         <div className="tableColName">+ особенности в процесе работы</div>
         <div className="tableCol"></div>
         <div className="tableCol">
-          <img src={imgOk} alt="yes" />
+          <img src={imgOk} alt="yes" className="imgOk" />
         </div>
         <div className="tableCol">
-          <img src={imgOk} alt="yes" />
+          <img src={imgOk} alt="yes" className="imgOk" />
         </div>
       </div>
       <div className="tableRow">
@@ -59,15 +59,17 @@ function Block6() {
         <div className="tableCol"></div>
         <div className="tableCol"></div>
         <div className="tableCol">
-          <img src={imgOk} alt="yes" />
+          <img src={imgOk} alt="yes" className="imgOk" />
         </div>
       </div>
       <div className="tableRow">
-        <div className="tableColName">+ практическое применение в работе с эмоциями</div>
+        <div className="tableColName">
+          + практическое применение в работе с эмоциями
+        </div>
         <div className="tableCol"></div>
         <div className="tableCol"></div>
         <div className="tableCol">
-          <img src={imgOk} alt="yes" />
+          <img src={imgOk} alt="yes" className="imgOk" />
         </div>
       </div>
     </>

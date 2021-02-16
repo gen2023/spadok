@@ -6,7 +6,7 @@ function Bonus() {
   return (
     <>
       <div className="tableRow">
-        <div className="tableColName">Бонус</div>
+        <div className="tableColName headerBonus">Бонус</div>
         <div className="tableCol"></div>
         <div className="tableCol"></div>
         <div className="tableCol"></div>
@@ -16,7 +16,7 @@ function Bonus() {
         <div className="tableCol"></div>
         <div className="tableCol"></div>
         <div className="tableCol">
-          <img src={imgOk} alt="yes" />
+          <img src={imgOk} alt="yes" className="imgOk" />
         </div>
       </div>
       <div className="tableRow">
@@ -26,18 +26,19 @@ function Bonus() {
         <div className="tableCol"></div>
         <div className="tableCol"></div>
         <div className="tableCol">
-          <img src={imgOk} alt="yes" />
+          <img src={imgOk} alt="yes" className="imgOk" />
         </div>
       </div>
       <div className="tableRow">
-        <div className="tableColName">Модификатор защиты - стельки Вашего размера</div>
+        <div className="tableColName">
+          Модификатор защиты - стельки Вашего размера
+        </div>
         <div className="tableCol"></div>
         <div className="tableCol"></div>
         <div className="tableCol">
-          <img src={imgOk} alt="yes" />
+          <img src={imgOk} alt="yes" className="imgOk" />
         </div>
       </div>
-     
     </>
   );
 }

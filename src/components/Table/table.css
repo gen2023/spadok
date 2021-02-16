@@ -1,27 +1,123 @@
+.contentTable {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 auto;
+  font-size: 18px;
+  line-height: 1.55;
+}
 .table {
   width: 100%;
-  border: 1px solid #000;
-  display: table;
+  background-color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  -webkit-flex: 1 0;
+  -ms-flex: 1 0;
+  -moz-flex: 1 0;
+  flex: 1 0;
+  margin: 10px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
 }
 .tableRow {
-  /* display: flex; */
-  display: table-row;
+  display: flex;
+  border-bottom: 3px solid #e0e6ed;
+  /* display: table-row; */
+}
+.tableRow:last-of-type,
+.tableRow:first-of-type {
+  border-bottom: none;
 }
 .tableColName {
   width: 70%;
-  border: 1px solid #000;
+  border-right: 3px solid #bdcada;
   padding-left: 10px;
-  display: table-cell;
+  display: flex;
+  align-items: center;
+}
+.tableColNameHeader {
+  width: 70%;
+  padding-left: 10px;
 }
 .tableCol {
-  border: 1px solid #000;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
   width: 10%;
   text-align: center;
-  display: table-cell;
+  margin: 0 10px;
+}
+.tableCol:last-of-type {
+  margin: 0;
 }
 .textNumber {
   color: green;
 }
-.center {
-  text-align: center;
+.tableHeader {
+  background-color: red;
+  border-radius: 10px;
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 700;
+}
+
+.imgOk {
+  width: 20px;
+}
+
+.headerBonus {
+  color: red;
+  font-weight: 700;
+}
+
+.price {
+  font-weight: 700;
+}
+
+.borderPriceA {
+  background-color: #f9cceb;
+  height: 80px;
+  border-radius: 10px;
+}
+.borderPriceB {
+  background-color: red;
+  height: 80px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 375px) {
+  .contentTable {
+    width: 350px;
+    font-size: 10px;
+  }
+  .tableCol {
+    margin: 0 3px;
+  }
+  .turn {
+    -moz-transform: rotate(90deg); /* Для Firefox */
+    -ms-transform: rotate(90deg); /* Для IE */
+    -webkit-transform: rotate(90deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(90deg); /* Для Opera */
+    transform: rotate(90deg);
+  }
+}
+@media screen and (max-width: 425px) and (min-width: 376px) {
+  .contentTable {
+    width: 400px;
+    font-size: 13px;
+  }
+  .tableCol {
+    margin: 0 7px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 426px) {
+  .contentTable {
+    width: 740px;
+    font-size: 15px;
+  }
 }

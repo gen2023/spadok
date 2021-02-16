@@ -1,34 +1,26 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
+import Navigation from './Navigation';
 import HomePage from '../Pages/HomePage';
 import TablePage from '../Pages/TablePage';
+import ReviewsPage from '../Pages/ReviewsPage';
 import NotFoundPage from '../Pages/NotFoundPage';
 
 import routes from '../services/routes';
+import routesNavigation from '../services/routesNavigation';
 
-// import Baner from './Baner';
-// import Block1 from './Block1';
-// import Block2 from './Block2';
-// import Block3 from './Block3';
-// import Block4 from './Block4';
-// import Block5 from './Block5';
-// import Block6 from './Block6';
-// import Block7 from './Block7';
-// import Block8 from './Block8';
-// import Block9 from './Block9';
-// import Bonus from './Bonus';
-// import Price from './Price';
-
+import '../../node_modules/modern-normalize/modern-normalize.css';
 import './App.css';
 
 function App() {
   return (
     <>
-      {/* <TablePage /> */}
+      <Navigation />
       <Switch>
         <Route path={routes.home} exact component={HomePage} />
         <Route path={routes.table} component={TablePage} />
+        <Route path={routesNavigation.reviews} component={ReviewsPage} />
         <Route render={props => <NotFoundPage {...props} />} />
       </Switch>
     </>
