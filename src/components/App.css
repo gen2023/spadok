@@ -5,8 +5,7 @@ ul {
 }
 .content {
   width: 1200px;
-  margin: 0 auto;
-  padding: 0 auto;
+  margin: auto;
   font-size: 20px;
   line-height: 1.55;
 }
@@ -74,17 +73,28 @@ ul {
 .textCenter {
   text-align: center;
 }
+.blockBonus {
+  height: 278px;
+}
+
+.baner {
+  text-align: center;
+}
 
 @media screen and (max-width: 425px) {
   .content {
-    width: 425px;
+    width: 100%;
     font-size: 13px;
   }
   .contentRow {
     display: block;
   }
+
   .baner img {
-    width: 425px;
+    width: 98%;
+  }
+  .blockBonus {
+    height: 0;
   }
 }
 @media screen and (max-width: 768px) and (min-width: 426px) {

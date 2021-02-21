@@ -1,18 +1,29 @@
 import React, { Component } from 'react';
 
 import ReviewItems from './ReviewItems';
+import ReviewVideoItems from './ReviewVideoItems';
 
-import data from '../../json/reviews.json';
+import dataText from '../../json/reviews.json';
+import dataVideo from '../../json/videoReviews.json';
 import './reviews.css';
 
 class Review extends Component {
   render() {
-    // console.log(data.map(date => date.date));
     return (
       <>
-        <div className="contentRow">
-          <ul>
-            {data.map(({ id, date, text, foto }) => (
+        <div>
+          <ul className="contentRow">
+            {dataVideo.map(({ id, small, name, description }) => (
+              <ReviewVideoItems
+                key={id}
+                video={small}
+                name={name}
+                description={description}
+              />
+            ))}
+          </ul>
+          <ul className="contentRow">
+            {dataText.map(({ id, date, text, foto }) => (
               <ReviewItems key={id} date={date} text={text} foto={foto} />
             ))}
           </ul>

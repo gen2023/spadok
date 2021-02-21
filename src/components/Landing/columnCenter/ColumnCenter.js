@@ -110,7 +110,7 @@ function ColumnCenter() {
             <span className="textRed">6</span> встреч
           </div>
         </div>
-        <div style={{ height: 248 }}></div>
+        <div className="blockBonus"></div>
       </div>
     </>
   );

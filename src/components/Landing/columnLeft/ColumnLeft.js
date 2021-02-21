@@ -109,7 +109,7 @@ function ColumnLeft() {
             <span className="textRed">4</span> встречи
           </div>
         </div>
-        <div style={{ height: 248 }}></div>
+        <div className="blockBonus"></div>
       </div>
     </>
   );

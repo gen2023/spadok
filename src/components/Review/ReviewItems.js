@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import propTypes from 'prop-types';
-
 import ReadMoreReact from 'read-more-react';
+
+import ButtonSubscribe from '../ButtonSubscribe';
 
 class ReviewItems extends Component {
   // function ReviewItems({ date, text, foto }) {
@@ -16,13 +17,17 @@ class ReviewItems extends Component {
     return (
       <>
         <li className="reviewsBlock" id="review">
-          <p>{date}</p>
+          <div className="dateReviews">{date}</div>
 
-          <p className="text">
+          <div className="text">
             <ReadMoreReact text={text} readMoreText="Еще..." />
-          </p>
-
-          <img src={foto} alt="" />
+          </div>
+          <div className="imgReviews">
+            <img src={foto} alt="" />
+          </div>
+        </li>
+        <li className="blockButton">
+          <ButtonSubscribe />
         </li>
       </>
     );

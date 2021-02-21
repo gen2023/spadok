@@ -7,16 +7,26 @@ import './navigation.css';
 
 const Navigation = () => {
   return (
-    <nav className="nav">
-      <NavLink
-        exact
-        to={routesNavigation.reviews}
-        className="nav_link"
-        activeClassName="active"
-      >
-        Отзывы
-      </NavLink>
-    </nav>
+    <div className="content">
+      <nav className="nav">
+        <NavLink
+          exact
+          to={routesNavigation.home}
+          className="nav_link"
+          activeClassName="active"
+        >
+          Главная
+        </NavLink>
+        <NavLink
+          exact
+          to={routesNavigation.reviews}
+          className="nav_link"
+          activeClassName="active"
+        >
+          Отзывы
+        </NavLink>
+      </nav>
+    </div>
   );
 };
 
