@@ -9,8 +9,7 @@ const ReviewVideoItems = ({ name, /*onClick, description,*/ video }) => {
       <li className="reviewsBlock">
         <div className="videoCategory">
           <iframe
-            width="530"
-            height="300"
+            className="videoItem"
             src={video}
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

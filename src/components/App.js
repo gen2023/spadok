@@ -5,6 +5,7 @@ import Navigation from './Navigation';
 import HomePage from '../Pages/HomePage';
 import TablePage from '../Pages/TablePage';
 import ReviewsPage from '../Pages/ReviewsPage';
+import SeminarBasePage from '../Pages/SeminarBasePage';
 import NotFoundPage from '../Pages/NotFoundPage';
 
 import routes from '../services/routes';
@@ -21,6 +22,7 @@ function App() {
         <Route path={routes.home} exact component={HomePage} />
         <Route path={routes.table} component={TablePage} />
         <Route path={routesNavigation.reviews} component={ReviewsPage} />
+        <Route path={routesNavigation.base} component={SeminarBasePage} />
         <Route render={props => <NotFoundPage {...props} />} />
       </Switch>
     </>

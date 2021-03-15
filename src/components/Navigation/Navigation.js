@@ -25,6 +25,14 @@ const Navigation = () => {
         >
           Отзывы
         </NavLink>
+        <NavLink
+          exact
+          to={routesNavigation.base}
+          className="nav_link"
+          activeClassName="active"
+        >
+          Обучение
+        </NavLink>
       </nav>
     </div>
   );
