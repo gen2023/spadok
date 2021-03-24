@@ -96,16 +96,25 @@ ul {
   .blockBonus {
     height: 0;
   }
+  .nav_link {
+    font-size: 10px;
+  }
 }
 @media screen and (max-width: 768px) and (min-width: 426px) {
   .content {
-    width: 768px;
+    width: 100%;
     font-size: 15px;
   }
   .contentRow {
     display: flex;
   }
   .baner img {
-    width: 768px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width: 769px) {
+  .content {
+    width: 100vw;
+    font-size: 15px;
   }
 }

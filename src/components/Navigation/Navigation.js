@@ -19,6 +19,14 @@ const Navigation = () => {
         </NavLink>
         <NavLink
           exact
+          to={routesNavigation.training}
+          className="nav_link"
+          activeClassName="active"
+        >
+          Обучение
+        </NavLink>
+        <NavLink
+          exact
           to={routesNavigation.reviews}
           className="nav_link"
           activeClassName="active"
@@ -27,11 +35,11 @@ const Navigation = () => {
         </NavLink>
         <NavLink
           exact
-          to={routesNavigation.base}
+          to={routesNavigation.schedule}
           className="nav_link"
           activeClassName="active"
         >
-          Обучение
+          Расписание
         </NavLink>
       </nav>
     </div>

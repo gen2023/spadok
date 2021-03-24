@@ -1,5 +1,6 @@
 import React from 'react';
 import '../seminar.css';
+import '../mobile_seminar.css';
 import logo from '../../../images/logo.png';
 import logoText from '../../../images/logo_text.png';
 import block3 from '../../../images/block3.png';
@@ -16,23 +17,32 @@ function Base() {
   return (
     <>
       <div className="pageBaseSeminar1">
-        <div className="titleSeminar">ШКОЛА ПЕРЦЕПТИВНЫХ ТЕХНОЛОГИЙ</div>
-        <div className="blockLogo">
-          <img src={logo} alt="logo Spadok" />
+        <div className="titleSeminar">
+          <div className="titleSeminar_block">
+            ШКОЛА ПЕРЦЕПТИВНЫХ ТЕХНОЛОГИЙ
+          </div>
         </div>
-        <div className="blockLogo">
-          <img src={logoText} alt="logo Spadok text" />
+        <div className="pageBaseSeminar1_row">
+          <div className="blockLogo">
+            <img className="logoSpadok" src={logo} alt="logo Spadok" />
+            <img
+              className="logoSpadokText"
+              src={logoText}
+              alt="logo Spadok text"
+            />
+          </div>
+          <div className="pageBaseSeminar1_row_text">
+            ПЕРЦЕПЦИЯ теория и практика (1й базовый)
+          </div>
         </div>
-        <div className="footerPageBaseSeminar1">
-          Перцепция. Теория и практика ( 1й базовый )
-        </div>
+        <div className="footerPageBaseSeminar1">Киев, ул. Почайнинская, 70</div>
       </div>
       <div className="pageBaseSeminar2">
         <div className="pageBaseSeminar2_row">
           <div className="leftColumnPage2">
-            <div>
+            {/* <div>
               <img src={logo} alt="logo Spadok" />
-            </div>
+            </div> */}
             <div className="title_leftColumnPage2">о семинаре</div>
           </div>
           <div className="rightColumnPage2">
@@ -64,7 +74,7 @@ function Base() {
           </div>
         </div>
         <div className="footerPageBaseSeminar2">
-          ШКОЛА ПЕРЦПТИВНЫХ ТЕХНОЛОГИЙ
+          {/* ШКОЛА ПЕРЦПТИВНЫХ ТЕХНОЛОГИЙ */}
         </div>
       </div>
       <div className="pageBaseSeminar3">
@@ -96,22 +106,22 @@ function Base() {
               <br />- <span className="nameBlockText">РАСШИРИТЬ</span> свои
               возможности специалиста применяющего перцепцию в своей сфере
               коррекции здоровья
-              <br />- <span className="nameBlockText">ОВЛАДЕТЬ</span>
+              <br />- <span className="nameBlockText">ОВЛАДЕТЬ </span>
               перцептивными техниками, которые сразу сможете использовать в
               работе
             </div>
           </div>
         </div>
         <div className="footerPageBaseSeminar3">
-          ШКОЛА ПЕРЦПТИВНЫХ ТЕХНОЛОГИЙ
+          {/* ШКОЛА ПЕРЦПТИВНЫХ ТЕХНОЛОГИЙ */}
         </div>
       </div>
       <div className="pageBaseSeminar4">
         <div className="pageBaseSeminar4_header">
           <span className="pageBaseSeminar4_title">результат</span>
-          <span className="pageBaseSeminar4_logo">
+          {/* <span className="pageBaseSeminar4_logo">
             <img src={logo} alt="logo" />
-          </span>
+          </span> */}
           <span className="pageBaseSeminar4_image">
             <img src={block_result} alt="block result" />
           </span>
@@ -173,11 +183,12 @@ function Base() {
         <div className="pageBaseSeminar2_row">
           <div className="leftColumnPage6">
             <div className="title_leftColumnPage6">ОСОБЕННОСТИ СЕМИНАРА</div>
-            <div>
+            {/* <div>
               <img src={logo} alt="logo Spadok" />
-            </div>
+            </div> */}
           </div>
           <div className="rightColumnPage6">
+            <div className="rightColumnPage6_title">ОСОБЕННОСТИ СЕМИНАРА</div>
             <div className="rightColumnPage6_row">
               <img src={ico1} alt="ico1" />
               <span>
@@ -202,7 +213,7 @@ function Base() {
           </div>
         </div>
         <div className="footerPageBaseSeminar6">
-          ШКОЛА ПЕРЦПТИВНЫХ ТЕХНОЛОГИЙ
+          {/* ШКОЛА ПЕРЦПТИВНЫХ ТЕХНОЛОГИЙ */}
         </div>
       </div>
       <div className="pageBaseSeminar7">
@@ -217,11 +228,16 @@ function Base() {
               <br />
               <span className="leftColumnPage7_title__">ведущие семинар</span>
             </div>
-            <div>
+            {/* <div>
               <img src={logo} alt="logo Spadok" />
-            </div>
+            </div> */}
           </div>
           <div className="rightColumnPage6">
+            <div className="rightColumnPage6_title">
+              <span>МАСТЕРА ШКОЛЫ</span>
+              <br />
+              <span className="rightColumnPage6_title__">ведущие семинар</span>
+            </div>
             <div className="rightColumnPage6_row">
               <img src={face1} alt="ico1" />
               <span>
@@ -238,20 +254,20 @@ function Base() {
             </div>
             <div className="rightColumnPage6_row">
               <img src={face4} alt="ico3" />
-              <span>Василий Малашин физиолог-реабилитолог.</span>
+              <span>Василий Малашина физиолог-реабилитолог.</span>
             </div>
           </div>
         </div>
-        <div className="footerPageBaseSeminar6">
-          ШКОЛА ПЕРЦПТИВНЫХ ТЕХНОЛОГИЙ
+        <div className="footerPageBaseSeminar7">
+          {/* ШКОЛА ПЕРЦПТИВНЫХ ТЕХНОЛОГИЙ */}
         </div>
       </div>
       <div className="pageBaseSeminar8">
         <div className="pageBaseSeminar2_row">
           <div className="leftColumnPage8">
-            <div>
+            {/* <div>
               <img src={logo} alt="logo Spadok" />
-            </div>
+            </div> */}
             <div className="title_leftColumnPage2">Работаем по плану</div>
           </div>
           <div className="rightColumnPage8">
@@ -276,15 +292,15 @@ function Base() {
           </div>
         </div>
         <div className="footerPageBaseSeminar6">
-          ШКОЛА ПЕРЦПТИВНЫХ ТЕХНОЛОГИЙ
+          {/* ШКОЛА ПЕРЦПТИВНЫХ ТЕХНОЛОГИЙ */}
         </div>
       </div>
       <div className="pageBaseSeminar9">
         <div className="pageBaseSeminar2_row">
           <div className="leftColumnPage9">
-            <div>
+            {/* <div>
               <img src={logo} alt="logo Spadok" />
-            </div>
+            </div> */}
             <div className="title_leftColumnPage2">Наши контакты</div>
           </div>
           <div className="rightColumnPage9">
@@ -319,9 +335,9 @@ function Base() {
             </div>
           </div>
         </div>
-        <div className="footerPageBaseSeminar6">
-          ШКОЛА ПЕРЦПТИВНЫХ ТЕХНОЛОГИЙ
-        </div>
+        {/* <div className="footerPageBaseSeminar6"> */}
+        {/* ШКОЛА ПЕРЦПТИВНЫХ ТЕХНОЛОГИЙ */}
+        {/* </div> */}
       </div>
       <div className="pageBaseSeminar10">
         <div className="pageBaseSeminar10_row">

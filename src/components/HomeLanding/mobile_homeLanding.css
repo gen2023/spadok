@@ -1,0 +1,226 @@
+@media screen and (max-width: 1000px) {
+  .homePage1 {
+    display: block;
+    text-align: center;
+    height: 500px;
+    margin: 0 50px;
+  }
+  .homePage1_leftColumn {
+    margin: 0;
+    width: auto;
+  }
+  .homePage1_leftColumn img,
+  .homePage2_leftColumn,
+  .homePage5_leftColumn {
+    display: none;
+  }
+  .homePage1_leftColumn_title {
+    font-size: 20px;
+  }
+  .homePage1_rightColumn {
+    background: none;
+    width: 250px;
+    margin: auto;
+  }
+  .homePage1_rightColumn_logoText {
+    display: block;
+  }
+  .homePage1_rightColumn_logoText img {
+    width: 250px;
+  }
+  .homePage1_rightColumn img {
+    width: 250px;
+    margin: auto;
+  }
+  .homePage2,
+  .homePage3,
+  .homePage4,
+  .homePage5 {
+    margin: 0 50px;
+  }
+  .homePage2_rightColumn {
+    margin: auto;
+  }
+  .homePage2_rightColumn_description,
+  .homePage5_rightColumn_title_description {
+    margin-right: 50px;
+  }
+  .homePage2_rightColumn_title,
+  .homePage3_title,
+  .homePage4_title,
+  .homePage5_rightColumn_title {
+    font-size: 20px;
+    background: #bd1422;
+    color: white;
+    text-align: center;
+    height: 150px;
+    padding-top: 50px;
+    width: 100vw;
+    margin-left: -50px;
+  }
+  .homePage3_title {
+    margin-bottom: 50px;
+  }
+
+  .homePage3_footer {
+    background: none;
+    height: max-content;
+    margin-bottom: 100px;
+  }
+  .homePage3_center {
+    /* display: block; */
+    padding: 0;
+    margin-bottom: 0;
+  }
+  .homePage3_block {
+    margin: 0 auto 20px auto;
+    width: 200px;
+    height: 313px;
+  }
+  .homePage3_block:last-child {
+    margin: 0 auto;
+  }
+
+  .homePage4_reviews {
+    margin-top: 50px;
+  }
+  .homePage4_reviews_block {
+    margin-right: 0;
+    /* width: auto; */
+  }
+  .homePage4_reviews_block_name1 {
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  .homePage2,
+  .homePage3,
+  .homePage4,
+  .homePage5 {
+    margin: auto;
+  }
+  .homePage2_rightColumn_title,
+  .homePage3_title,
+  .homePage4_title,
+  .homePage5_rightColumn_title {
+    margin-left: 0;
+  }
+  .homePage2_rightColumn_title,
+  .homePage3_title,
+  .homePage5_rightColumn_title {
+    width: auto;
+    background: none;
+    color: black;
+  }
+  .homePage1 {
+    display: flex;
+  }
+  .homePage1_rightColumn_logoText {
+    display: none;
+  }
+  .homePage1_rightColumn {
+    background: #bd1422;
+    width: 150px;
+    margin: 0;
+  }
+  .homePage1_rightColumn img {
+    margin: 75px 0 0 -150px;
+  }
+  .homePage1_leftColumn {
+    margin: 100px 0 0 0;
+  }
+  .homePage1_leftColumn img {
+    width: 250px;
+  }
+  .homePage1_leftColumn img,
+  .homePage2_leftColumn {
+    display: block;
+  }
+  .homePage2_leftColumn img {
+    width: 300px;
+    margin: 50px;
+  }
+  .homePage2_rightColumn_description {
+    margin: 0 50px;
+  }
+  .homePage3_footer {
+    background: #bd1422;
+    margin-bottom: 0;
+    height: 200px;
+    width: 100vw;
+    margin-left: 0px;
+  }
+  .homePage3_center {
+    margin-bottom: -170px;
+  }
+  .homePage5_leftColumn {
+    display: block;
+    margin-top: 40px;
+  }
+  .homePage5_leftColumn img {
+    width: 200px;
+    margin: 70px 0 0 200px;
+  }
+  .homePage5_rightColumn {
+    width: 275px;
+  }
+  .homePage5_rightColumn_title_description {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width: 990px) {
+  .homePage4_reviews {
+    margin-top: -50px;
+  }
+}
+@media screen and (max-width: 949px) and (min-width: 850px) {
+  .homePage1_rightColumn {
+    width: 250px;
+  }
+  .homePage1_leftColumn img {
+    width: 300px;
+  }
+  .homePage1_rightColumn img {
+    margin: 75px 0 0 -250px;
+    width: 350px;
+  }
+  .homePage2_leftColumn img {
+    width: 350px;
+  }
+  .homePage5_leftColumn img {
+    width: 300px;
+    margin: 70px 0 0 155px;
+  }
+  .homePage5_rightColumn {
+    width: 300px;
+  }
+  .homePage5_rightColumn_title_description {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width: 950px) {
+  .homePage1_rightColumn {
+    width: 300px;
+  }
+  .homePage1_leftColumn img {
+    width: 350px;
+  }
+  .homePage1_rightColumn img {
+    margin: 75px 0 0 -300px;
+    width: 400px;
+  }
+  .homePage2_leftColumn img {
+    width: 400px;
+  }
+  .homePage5_leftColumn img {
+    width: 350px;
+    margin: 70px 0 0 105px;
+  }
+  .homePage5_rightColumn {
+    width: 350px;
+  }
+  .homePage5_rightColumn_title_description {
+    font-size: 21px;
+  }
+}

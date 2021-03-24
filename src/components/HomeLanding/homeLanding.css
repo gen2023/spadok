@@ -1,0 +1,174 @@
+/*page 1-------------------------------------------------*/
+.homePage1 {
+  display: flex;
+  justify-content: space-between;
+  height: 600px;
+}
+.homePage1_leftColumn {
+  width: 550px;
+  margin: 110px 0 0 125px;
+}
+.homePage1_leftColumn_title {
+  font-weight: 700;
+  font-size: 40px;
+
+  /* letter-spacing: 2.5px; */
+}
+.homePage1_leftColumn img {
+  width: 450px;
+}
+.homePage1_rightColumn {
+  background: #bd1422;
+  width: 350px;
+  /* position: relative; */
+}
+.homePage1_rightColumn img {
+  /* position: absolute; */
+  width: 500px;
+  margin-left: -250px;
+  margin-top: 75px;
+}
+.homePage1_rightColumn_logoText {
+  display: none;
+}
+/*page 2-------------------------------------------------*/
+.homePage2,
+.homePage5 {
+  display: flex;
+}
+.homePage2_leftColumn {
+  background: #bd1422;
+  width: 700px;
+}
+.homePage2_rightColumn_title,
+.homePage3_title,
+.homePage4_title,
+.homePage5_rightColumn_title {
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 2.5px;
+}
+.homePage2_leftColumn img {
+  width: 500px;
+  margin: 100px;
+}
+.homePage2_rightColumn {
+  margin: 50px 0 0 70px;
+}
+.homePage2_rightColumn_description {
+  margin-top: 75px;
+  line-height: 1.1;
+}
+/*page 3-------------------------------------------------*/
+.homePage3_title {
+  text-align: center;
+  margin: 50px 0 250px 0;
+}
+.homePage3_center {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 125px;
+  bottom: 70px;
+  margin-bottom: -170px;
+  flex-wrap: wrap;
+}
+.homePage3_footer {
+  height: 250px;
+  background: #bd1422;
+  /* width: 100vw; */
+  /* position: relative; */
+}
+.homePage3_block {
+  /* margin-right: 55px; */
+  border-radius: 20px;
+  color: white;
+  padding: 40px 20px 20px 20px;
+  width: 280px;
+  text-align: center;
+  line-height: 1.2;
+}
+.homePage3_block:last-child {
+  margin-right: 0;
+}
+.homePage3_block_img img {
+  height: 50px;
+  margin: 10px 0;
+}
+.homePage3_block1 {
+  background: #170462;
+  padding: 40px 25px 20px 25px;
+}
+.homePage3_block2 {
+  background: #201849;
+}
+.homePage3_block3 {
+  background: #170462;
+  padding: 40px 35px 20px 35px;
+}
+.homePage3_block_button img {
+  width: 20px;
+}
+/*page 4-------------------------------------------------*/
+.homePage4_title {
+  color: white;
+  text-align: center;
+  height: 250px;
+  background: #bd1422;
+  padding-top: 50px;
+}
+.homePage4_reviews_block {
+  text-align: center;
+  margin-right: 40px;
+  width: 330px;
+}
+.homePage4_reviews_block:last-child {
+  margin-right: 0;
+}
+.homePage4_reviews {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -50px;
+}
+.homePage4_reviews_block_face img {
+  width: 100px;
+}
+.homePage4_reviews_block_appraisal {
+  margin-top: 20px;
+}
+.homePage4_reviews_block_appraisal img {
+  width: 30px;
+}
+.homePage4_reviews_block_name {
+  height: 65px;
+  font-weight: 700;
+  font-size: 17px;
+}
+.homePage4_reviews_block_review {
+  font-size: 17px;
+}
+/*page 5-------------------------------------------------*/
+.homePage5 {
+  justify-content: space-between;
+}
+.homePage5_leftColumn {
+  background: #bd1422;
+  width: 300px;
+}
+.homePage5_leftColumn img {
+  border-radius: 50%;
+  width: 400px;
+  margin: 70px 0 0 100px;
+}
+.homePage5_rightColumn {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  width: 430px;
+}
+.homePage5_rightColumn_title_blockTitle {
+  font-weight: 700;
+  margin-top: 30px;
+}
+.homePage5_rightColumn_title_description {
+  font-size: 21px;
+}

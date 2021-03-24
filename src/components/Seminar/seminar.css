@@ -10,27 +10,58 @@
 .pageBaseSeminar9,
 .pageBaseSeminar10 {
   text-align: center;
+  width: 1000px;
+    margin: 0 auto;
+}
+.pageBaseSeminar1_row{
+  display:flex;
+  justify-content: space-between;
+  height: 450px;
 }
 .titleSeminar {
   font-size: 25px;
+  background: #170462;
+  height: 150px;
+  color: white;
 }
-.titleSeminar::after {
+.titleSeminar_block {
+  width: 400px;
+  margin: 0 auto;
+  padding-top:40px;
+}
+/* .titleSeminar::after {
   display: block;
   content: '';
   margin: auto;
   padding-top: 15px;
   width: 200px;
   border-bottom: 7px solid #170462;
-}
+} */
 .blockLogo {
-  padding-top: 50px;
-  padding-bottom: 30px;
+  width: 145px;
 }
-.blockLogo img {
+.logoSpadok {
+  width: 250px;
+  margin-top: -80px;
+  background: white;
+  border-radius: 50%;
+  border: 20px solid white;
+  margin-left: -30px;
+}
+.logoSpadokText {
   width: 350px;
+    margin-left: -98px;
+    margin-top: -35px;
+}
+.pageBaseSeminar1_row_text{
+  padding-top: 100px;
+  font-weight: 700;
+  font-size: 40px;
+  width: 370px;
+  text-align: right;
 }
 .footerPageBaseSeminar1 {
-  background-color: #170462;
+  background-color: #bd1422;
   color: white;
   width: 100%;
   height: 60px;
@@ -44,12 +75,12 @@
 .leftColumnPage2,
 .leftColumnPage6,
 .leftColumnPage7 {
-  background-color: #170462;
+  background-color: #bd1422;
   color: white;
   width: 70%;
   position: relative;
 }
-.leftColumnPage2 img,
+/* .leftColumnPage2 img, */
 .leftColumnPage8 img,
 .leftColumnPage9 img   {
   width: 100px;
@@ -68,7 +99,7 @@
   margin: 50px 0;
   /* padding-top: 50px; */
   width: 200px;
-  border-bottom: 7px solid #bd1422;
+  border-bottom: 7px solid #170462;
 }
 .rightColumnPage2,
 .rightColumnPage3,
@@ -96,8 +127,9 @@
 
 .footerPageBaseSeminar2,
 .footerPageBaseSeminar3,
-.footerPageBaseSeminar6 {
-  background-color: #bd1422;
+.footerPageBaseSeminar6,
+.footerPageBaseSeminar7 {
+  background-color: #170462;
   color: white;
   width: 100%;
   height: 60px;
@@ -114,6 +146,7 @@
 .footerPageBaseSeminar3 {
   z-index: 2;
   position: relative;
+  background-color: #bd1422;
 }
 .leftColumnPage3 {
   background-color: #170462;
@@ -124,7 +157,7 @@
 .imgTitle_leftColumnPage3{
 width: 350px;
 height:350px;
-/* border-radius: 50%; */
+border-radius: 50%;
 position: absolute;
 left:0;
 }
@@ -175,11 +208,12 @@ left:0;
 .pageBaseSeminar4_row {
   margin-left: 60px;
   margin-bottom: 100px;
+  margin-right: 20px;
   text-align: left;
 }
 .titlePage4 {
   padding: 65px 0;
-  width: 460px;
+  /* width: 100vw; */
 }
 .titlePage4_span {
   color: #bd1422;
@@ -204,11 +238,12 @@ left:0;
 .blockPage5 {
   background-color: #bd1422;
   height: 80px;
-  width: 87%;
+  width: 1000px;
   margin: auto;
 }
 .contentPage5 {
   display: flex;
+  justify-content: space-around;
   margin: 100px 150px;
 }
 .contentPage5_block {
@@ -216,7 +251,7 @@ left:0;
   border-radius: 50%;
   width: 350px;
   height: 350px;
-  margin: 0 50px;
+  /* margin: 0 50px; */
   padding: 11%;
 }
 .persentBlock5 {
@@ -248,6 +283,9 @@ left:0;
   top: 100px;
   font-size: 40px;
 }
+.rightColumnPage6_title{
+  display:none;
+}
 .rightColumnPage6_row {
   display: flex;
   align-items: center;
@@ -270,7 +308,7 @@ left:0;
 }
 /*page 7-------------------------------------------------*/
 .leftColumnPage7{
-  background-color: #bd1422;
+  background-color: #170462;
   width: 45%;
 }
 .leftColumnPage7_title{
@@ -282,6 +320,9 @@ left:0;
 .leftColumnPage7_title__{
   font-size:20px;
 }
+.footerPageBaseSeminar7 {
+  background-color: #bd1422;
+}
 /*page 8-------------------------------------------------*/
 .leftColumnPage8,
 .leftColumnPage9 {
@@ -292,8 +333,9 @@ left:0;
 }
 .rightColumnPage8,
 .rightColumnPage9{
-  margin: 300px 110px 100px 70px;
+  padding: 300px 110px 100px 70px;
   text-align: left;
+  
 }
 .rightColumnPage8_title{
   margin-bottom: 50px;
@@ -345,10 +387,10 @@ left:0;
     font-weight: 700;
 }
 .block_pageBaseSeminar10_row img {
-  width: 80px;
+  width: 200px;
 bottom: 0;
 position: absolute;
-left:45%;
+left:35%;
 }
 .description_block_pageBaseSeminar10_row{
   font-size: 40px;
