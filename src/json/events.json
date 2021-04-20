@@ -1,6 +1,5 @@
 [
-    { "title": "event 1", "date": "2021-03-01" },
-    { "title": "event 2","date": "2021-03-01" },
-    { "title": "event 3","start": "2021-03-03","end": "2021-03-05" },
-    { "title": "Base seminar","start": "2021-03-06","end": "2021-03-09", "url":"/base" }
+    
+    { "title": "Base seminar","start": "2021-04-15","end": "2021-04-18", "url":"/base", "color":"red" },
+    { "title": "Base seminar","start": "2021-07-15","end": "2021-07-18", "url":"/base" }
   ]

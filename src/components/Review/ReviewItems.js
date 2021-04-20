@@ -5,15 +5,9 @@ import ReadMoreReact from 'read-more-react';
 import ButtonSubscribe from '../ButtonSubscribe';
 
 class ReviewItems extends Component {
-  // function ReviewItems({ date, text, foto }) {
-  //   readText() {
-  //     const text = this.props.text;
-  //     //const textResult = text.map(text => text.text);
-  //     return text.map(text => text.text);
-  //   }
   render() {
     const { foto, date, text } = this.props;
-    // console.log(this.readText());
+
     return (
       <>
         <li className="reviewsBlock" id="review">

@@ -1,23 +1,21 @@
 import React, { Component } from 'react';
 
+import Navigation from '../components/Navigation';
 import Baner from '../components/Baner';
-import ColumnLeft from '../components/Landing/columnLeft';
-import ColumnRight from '../components/Landing/ColumnRight';
-import ColumnCenter from '../components/Landing/columnCenter';
+import Package from '../components/Package';
 
 import '../components/App.css';
 
 class TrainingPage extends Component {
   render() {
     return (
-      <div className="content">
-        <Baner />
-        <div className="contentRow blockRowJs">
-          <ColumnLeft />
-          <ColumnCenter />
-          <ColumnRight />
+      <>
+        <Navigation />
+        <div className="content">
+          <Baner />
+          <Package />
         </div>
-      </div>
+      </>
     );
   }
 }

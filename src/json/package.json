@@ -1,0 +1,17 @@
+[
+    {
+        "id":"1",
+        "name":"Минимальный",
+        "componentName":"Minimal"
+    },
+    {
+        "id":"2",
+        "name":"Пакет «Наставник»",
+        "componentName":"Mentor"
+    },
+    {
+        "id":"3",
+        "name":"Пакет VIP",
+        "componentName":"Vip"
+    }
+]  

@@ -1,0 +1,20 @@
+[
+    {
+      "id": "1",
+      "heading": "Главная",
+      "link": "/homeV1",
+      "title":""    
+    },
+    {
+      "id": "2",
+      "heading": "Главная2",
+      "link": "/homeV2",
+      "title":"Обучение"   
+    },
+    {
+      "id": "3",
+      "heading": "Главная3",
+      "link": "/homeV3",
+      "title":"Отзывы"   
+    }
+  ]

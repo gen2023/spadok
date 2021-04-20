@@ -1,0 +1,39 @@
+.headerLogoTextV3 {
+  width: 300px;
+}
+.headerLogoV3 {
+  width: 100px;
+  height: 100px;
+}
+.headerContentV3 {
+  padding-top: 25px;
+  padding-left: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.mobile_headerContentV3 {
+  display: flex;
+  justify-content: space-between;
+}
+.headerContentRightDescriptionV3 {
+  width: 300px;
+  font-size: 25px;
+  font-weight: 100;
+  text-align: center;
+}
+@media screen and (max-width: 425px) {
+  .headerContentV3 {
+    display: block;
+  }
+  .headerLogoV3 {
+    width: 50px;
+    height: 50px;
+  }
+  .headerLogoTextV3 {
+    width: 100px;
+    height: 50px;
+  }
+  .PageHomeV3 {
+    background-size: cover;
+  }
+}

@@ -1,49 +1,43 @@
-import React from 'react';
+import React, { Component } from 'react';
 // import propTypes from 'prop-types';
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 
-import routesNavigation from '../../services/routesNavigation';
+import ModalMobileMenu from '../Modal/ModalMobileMenu';
+import NavigationItem from './NavigationItems';
+
+// import routesNavigation from '../../services/routesNavigation';
+import list from '../../json/navigation.json';
 import './navigation.css';
 
-const Navigation = () => {
-  return (
-    <div className="content">
-      <nav className="nav">
-        <NavLink
-          exact
-          to={routesNavigation.home}
-          className="nav_link"
-          activeClassName="active"
-        >
-          Главная
-        </NavLink>
-        <NavLink
-          exact
-          to={routesNavigation.training}
-          className="nav_link"
-          activeClassName="active"
-        >
-          Обучение
-        </NavLink>
-        <NavLink
-          exact
-          to={routesNavigation.reviews}
-          className="nav_link"
-          activeClassName="active"
-        >
-          Отзывы
-        </NavLink>
-        <NavLink
-          exact
-          to={routesNavigation.schedule}
-          className="nav_link"
-          activeClassName="active"
-        >
-          Расписание
-        </NavLink>
-      </nav>
-    </div>
-  );
-};
-
-export default Navigation;
+export default class Navigation extends Component {
+  state = {
+    isModal: false,
+  };
+  leftMenu = () => {
+    this.setState(prevState => ({
+      isModal: !prevState.isModal,
+    }));
+  };
+  render() {
+    const { isModal } = this.state;
+    return (
+      <>
+        <nav className="menu">
+          <ul className="nav">
+            {list.map(({ id, heading, link }) => (
+              <NavigationItem key={id} name={heading} link={link} />
+            ))}
+          </ul>
+        </nav>
+        <div className="mobile_menu">
+          <button
+            className="mobile_menu_button"
+            type="button"
+            onClick={this.leftMenu}
+          ></button>
+          {isModal && <ModalMobileMenu onToggle={this.leftMenu} />}
+        </div>
+      </>
+    );
+  }
+}

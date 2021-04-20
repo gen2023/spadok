@@ -1,0 +1,26 @@
+[
+    {
+      "id": "1",
+      "heading": "Главная",
+      "link": "/",
+      "title":""    
+    },
+    {
+      "id": "2",
+      "heading": "Обучение",
+      "link": "/training",
+      "title":"Обучение"   
+    },
+    {
+      "id": "3",
+      "heading": "Отзывы",
+      "link": "/reviews",
+      "title":"Отзывы"   
+    },
+    {
+      "id": "4",
+      "heading": "Расписание",
+      "link":"/schedule",
+      "title":"Расписание"    
+    }
+  ]

@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import './homeLanding.css';
 import './mobile_homeLanding.css';
 
@@ -53,7 +55,6 @@ function HomeLanding() {
       </div>
       <div className="homePage3">
         <div className="homePage3_title">Мы предлагаем</div>
-
         <div className="homePage3_center">
           <div className="homePage3_block homePage3_block1">
             Обучающий проект по возрождению восприятия. Для всех кто связан с
@@ -61,10 +62,12 @@ function HomeLanding() {
             <div className="homePage3_block_img">
               <img src={homePage3_ico1} alt="block1" />
             </div>
-            ОБУЧЕНИЕ
-            <div className="homePage3_block_button">
-              <img src={homePage3_more} alt="block3" />
-            </div>
+            <Link to="/training">
+              ОБУЧЕНИЕ
+              <div className="homePage3_block_button">
+                <img src={homePage3_more} alt="block3" />
+              </div>
+            </Link>
           </div>
           <div className="homePage3_block homePage3_block2">
             Мастера помогут Вам восстановить здоровье, изменить жизненные
@@ -74,26 +77,32 @@ function HomeLanding() {
             <div className="homePage3_block_img">
               <img src={homePage3_ico2} alt="block2" />
             </div>
-            ЗДОРОВЬЕ
-            <div className="homePage3_block_button">
-              <img src={homePage3_more} alt="block3" />
-            </div>
+            <Link to="">
+              ЗДОРОВЬЕ
+              <div className="homePage3_block_button">
+                <img src={homePage3_more} alt="block3" />
+              </div>
+            </Link>
           </div>
           <div className="homePage3_block homePage3_block3">
             Магазин биоэнергетической продукции для успешной и счастливой жизни
             <div className="homePage3_block_img">
               <img src={homePage3_ico3} alt="block3" />
             </div>
-            МАГАЗИН
-            <div className="homePage3_block_button">
-              <img src={homePage3_more} alt="block3" />
-            </div>
+            <Link to="">
+              МАГАЗИН
+              <div className="homePage3_block_button">
+                <img src={homePage3_more} alt="block3" />
+              </div>
+            </Link>
           </div>
         </div>
         <div className="homePage3_footer"></div>
       </div>
       <div className="homePage4">
-        <div className="homePage4_title">Что говорят наши ученики</div>
+        <div className="homePage4_title">
+          <Link to="/reviews">Что говорят наши ученики</Link>
+        </div>
         <div className="homePage4_reviews">
           <div className="homePage4_reviews_block">
             <div className="homePage4_reviews_block_face">

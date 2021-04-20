@@ -90,6 +90,10 @@
 .homePage3_block:last-child {
   margin-right: 0;
 }
+.homePage3_block a,
+.homePage4_title a {
+  color: white;
+}
 .homePage3_block_img img {
   height: 50px;
   margin: 10px 0;
@@ -110,7 +114,7 @@
 }
 /*page 4-------------------------------------------------*/
 .homePage4_title {
-  color: white;
+  /* color: white; */
   text-align: center;
   height: 250px;
   background: #bd1422;

@@ -5,19 +5,24 @@ import dayGridPlugin from '@fullcalendar/daygrid';
 import ruLocale from '@fullcalendar/core/locales/ru';
 import events from '../json/events.json';
 
+import Navigation from '../components/Navigation';
+
 class SchedulePage extends Component {
   render() {
     return (
-      <div className="content">
-        <FullCalendar
-          plugins={[dayGridPlugin]}
-          initialView="dayGridMonth"
-          events={events}
-          firstDay="1"
-          locale={ruLocale}
-          eventColor="green"
-        />
-      </div>
+      <>
+        <Navigation />
+        <div className="content">
+          <FullCalendar
+            plugins={[dayGridPlugin]}
+            initialView="dayGridMonth"
+            events={events}
+            firstDay="1"
+            locale={ruLocale}
+            eventColor="#bd1422"
+          />
+        </div>
+      </>
     );
   }
 }

@@ -1,0 +1,9 @@
+.homeV1Content {
+  display: flex;
+  justify-content: space-between;
+  color: #d0c3bd;
+}
+.homeV1ContentLeft {
+  border-right: 1px solid #d0c3bd;
+  padding-right: 50px;
+}
