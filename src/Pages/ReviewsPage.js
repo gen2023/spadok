@@ -31,6 +31,7 @@ class ReviewsPage extends Component {
               <img src={logoText} alt="logoText" />
             </div>
           </div>
+          <div className="footer_titleRewiews">ОТЗЫВЫ</div>
           <Review />
         </div>
       </>

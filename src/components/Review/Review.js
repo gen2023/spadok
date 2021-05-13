@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 
 import ReviewItems from './ReviewItems';
 import ReviewVideoItems from './ReviewVideoItems';
-// import ReviewVideoItemsModal from './ReviewVideoItemsModal';
-// import ModalVideoPlay from '../Modal/ModalVideoPlay';
 
 import dataText from '../../json/reviews.json';
 import dataVideo from '../../json/videoReviews.json';

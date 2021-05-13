@@ -1,6 +1,6 @@
 {
   "name": "spadok",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
@@ -40,6 +40,7 @@
     "@fullcalendar/core": "^5.5.1",
     "@fullcalendar/daygrid": "^5.5.0",
     "@fullcalendar/react": "^5.5.0",
+    "@szhsin/react-menu": "^1.10.0",
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-prettier": "^3.3.1",
     "lint-staged": "^10.5.3",

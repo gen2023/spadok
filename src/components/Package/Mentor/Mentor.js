@@ -3,7 +3,7 @@ import React from 'react';
 function Mentor() {
   return (
     <>
-      <div className="contentBlock column">
+      <div className="contentBlock">
         <div className="titleBlock">Пакет &#171;Наставник&#187;</div>
         <div className="block">
           <div className="textCenter">

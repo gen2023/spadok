@@ -3,7 +3,7 @@ import React from 'react';
 function Vip() {
   return (
     <>
-      <div className="contentBlock column">
+      <div className="contentBlock">
         <div className="titleBlock">Пакет VIP </div>
         <div className="block">
           <div className="textCenter">

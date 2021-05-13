@@ -1,0 +1,726 @@
+@media screen and (max-width: 375px) and (min-width: 320px) {
+  .pageBaseSeminar1_row {
+    display: block;
+  }
+  .pageBaseSeminar1_row_text {
+    margin: auto;
+  }
+  .contentPage5 {
+    margin: 95px 0px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .pageBaseSeminar1,
+  .pageBaseSeminar2,
+  .pageBaseSeminar3,
+  .pageBaseSeminar4,
+  .pageBaseSeminar6,
+  .pageBaseSeminar7,
+  .pageBaseSeminar8,
+  .pageBaseSeminar9 {
+    width: auto;
+    margin: 0 50px;
+    height: auto;
+  }
+  .rightColumnPage2,
+  .rightColumnPage3,
+  .rightColumnPage6,
+  .rightColumnPage7 {
+    padding: 0;
+    width: auto;
+  }
+  .pageBaseSeminar1 {
+    height: 600px;
+  }
+  .pageBaseSeminar1_row {
+    height: 391px;
+  }
+  .logoSpadok {
+    width: 150px;
+    margin-top: -50px;
+    /* background: white; */
+    /* border-radius: 50%; */
+    border: 10px solid white;
+    margin-left: -25px;
+  }
+  .logoSpadokText {
+    width: 150px;
+    margin-left: -25px;
+    margin-top: -15px;
+  }
+  .pageBaseSeminar1_row_text {
+    padding-top: 50px;
+    font-weight: 600;
+    font-size: 13px;
+    width: 150px;
+  }
+  .titleSeminar {
+    font-size: 17px;
+  }
+  .titleSeminar_block {
+    width: auto;
+  }
+  .footerPageBaseSeminar1 {
+    font-size: 10px;
+  }
+  .leftColumnPage2,
+  .leftColumnPage3,
+  .leftColumnPage6,
+  .leftColumnPage7,
+  .leftColumnPage8,
+  .leftColumnPage9,
+  .pageBaseSeminar4_header {
+    display: none;
+  }
+  .rightColumnPage3 {
+    margin: auto;
+  }
+  .textPage3SeminarBase {
+    text-align: left;
+  }
+  .pageBaseSeminar4_row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .titlePage4 {
+    width: 100%;
+  }
+  .Podtext_textPage4SeminarBase {
+    margin-left: 25px;
+  }
+  .rightColumnPage8 {
+    margin: 0 0 50px 0;
+    padding: 0;
+    width: auto;
+  }
+  .rightColumnPage8_title {
+    margin-bottom: 20px;
+  }
+  .rightColumnPage9 {
+    margin: 50px 0;
+    padding: 0;
+    width: auto;
+  }
+  .rightColumnPage6_row {
+    display: block;
+  }
+
+  .contentPage5 {
+    margin: 95px 0px;
+  }
+  .blockPage5 {
+    width: auto;
+    margin: 0 50px;
+  }
+  .contentPage5_block {
+    width: 150px;
+    height: 150px;
+    margin: 10px auto;
+  }
+  .persentBlock5 {
+    font-size: large;
+  }
+  .rightColumnPage6_title {
+    display: block;
+    font-size: 30px;
+  }
+  .rightColumnPage6_title::before {
+    display: block;
+    content: '';
+    margin: 50px 0;
+    /* padding-top: 50px; */
+    width: 200px;
+    border-bottom: 7px solid #bd1422;
+  }
+  .rightColumnPage6_row img {
+    width: 100px;
+    display: block;
+    float: left;
+  }
+  .rightColumnPage6_title__ {
+    font-size: 15px;
+  }
+  .pageBaseSeminar10,
+  .pageBaseSeminar5 {
+    width: 100vw;
+    margin: 0;
+  }
+  .block_pageBaseSeminar10_row {
+    width: 100vw;
+    height: 100vw;
+    padding-top: 5%;
+  }
+  .description_block_pageBaseSeminar10_row {
+    font-size: 20px;
+    margin: 50px 50px 0 50px;
+    line-height: 23px;
+  }
+  .block_pageBaseSeminar10_row img {
+    left: 35%;
+    width: 30vw;
+  }
+}
+@media screen and (max-width: 393px) and (min-width: 376px) {
+  .pageBaseSeminar1_row_text {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 600px) and (min-width: 501px) {
+  .pageBaseSeminar1,
+  .pageBaseSeminar2,
+  .pageBaseSeminar3,
+  .pageBaseSeminar4,
+  .blockPage5,
+  .pageBaseSeminar6,
+  .pageBaseSeminar7,
+  .pageBaseSeminar8,
+  .pageBaseSeminar9,
+  .pageBaseSeminar10 {
+    width: 480px;
+    margin: 0 auto;
+  }
+  .rightColumnPage2,
+  .rightColumnPage3,
+  .rightColumnPage6,
+  .rightColumnPage7 {
+    padding: 0 30px;
+  }
+  .logoSpadok {
+    width: 200px;
+  }
+  .logoSpadokText {
+    width: 200px;
+    margin-left: 0;
+    margin-top: -25px;
+  }
+  .pageBaseSeminar1_row_text {
+    padding-top: 175px;
+    font-size: 25px;
+    width: auto;
+    text-align: left;
+  }
+  .title_leftColumnPage2,
+  .pageBaseSeminar4_header {
+    font-size: 29px;
+  }
+  .titlePage2,
+  .titlePage3 {
+    padding-bottom: 20px;
+    font-size: 22px;
+  }
+  .titlePage2::before,
+  .titlePage3::before {
+    margin: 29px 0;
+  }
+  .textPage2SeminarBase {
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+  .rightColumnPage3 {
+    margin: 0;
+  }
+  .imgTitle_leftColumnPage3,
+  .pageBaseSeminar4_image img {
+    display: none;
+  }
+  .textPage3SeminarBase {
+    font-size: 14px;
+    margin-bottom: 70px;
+  }
+  .pageBaseSeminar4_header {
+    height: 150px;
+  }
+  .textPage4SeminarBase {
+    font-size: 14px;
+  }
+  .titlePage4 {
+    width: auto;
+    padding: 25px 0;
+  }
+  .titlePage4_span {
+    font-size: 18px;
+  }
+  .pageBaseSeminar5 {
+    margin: 0 auto;
+  }
+
+  .contentPage5 {
+    margin: 151px auto;
+  }
+  .contentPage5_block {
+    width: 200px;
+    height: 200px;
+  }
+  .persentBlock5 {
+    font-size: 30px;
+  }
+  .title_leftColumnPage6 {
+    writing-mode: tb;
+    left: 25px;
+  }
+  .rightColumnPage6_row span {
+    font-size: 14px;
+    line-height: 1.3;
+  }
+  .rightColumnPage6_row {
+    margin-top: 20px;
+  }
+  .rightColumnPage6_row:last-child {
+    margin-bottom: 37px;
+  }
+  .leftColumnPage7_title {
+    writing-mode: tb;
+  }
+  .rightColumnPage8,
+  .rightColumnPage9 {
+    padding: 0 0 22px 10px;
+    width: 50%;
+  }
+  .rightColumnPage9 {
+    padding-top: 108px;
+    padding-bottom: 66px;
+  }
+  .rightColumnPage9_row:not(:first-child)::before {
+    margin: 33px 0;
+  }
+  .block_pageBaseSeminar10_row {
+    width: 470px;
+    height: 470px;
+  }
+  .description_block_pageBaseSeminar10_row {
+    font-size: 23px;
+  }
+}
+@media screen and (max-width: 700px) and (min-width: 601px) {
+  .pageBaseSeminar1,
+  .pageBaseSeminar2,
+  .pageBaseSeminar3,
+  .pageBaseSeminar4,
+  .blockPage5,
+  .pageBaseSeminar6,
+  .pageBaseSeminar7,
+  .pageBaseSeminar8,
+  .pageBaseSeminar9,
+  .pageBaseSeminar10 {
+    width: 560px;
+    margin: 0 auto;
+  }
+  .rightColumnPage2,
+  .rightColumnPage3,
+  .rightColumnPage6,
+  .rightColumnPage7 {
+    padding: 0 30px;
+  }
+  .logoSpadok {
+    width: 200px;
+  }
+  .logoSpadokText {
+    width: 200px;
+    margin-left: -10px;
+    margin-top: -25px;
+  }
+  .pageBaseSeminar1_row_text {
+    padding-top: 52px;
+    font-size: 26px;
+    width: 300px;
+  }
+  .title_leftColumnPage2,
+  .pageBaseSeminar4_header {
+    font-size: 29px;
+  }
+  .titlePage2,
+  .titlePage3 {
+    padding-bottom: 20px;
+    font-size: 22px;
+  }
+  .titlePage2::before,
+  .titlePage3::before {
+    margin: 29px 0;
+  }
+  .textPage2SeminarBase {
+    font-size: 13px;
+    margin-bottom: 32px;
+  }
+  .rightColumnPage3 {
+    margin: 0;
+    padding-left: 50px;
+  }
+  .imgTitle_leftColumnPage3 {
+    width: 200px;
+    height: 200px;
+  }
+  .textPage3SeminarBase {
+    margin-bottom: 51px;
+  }
+  .pageBaseSeminar4_header {
+    height: 150px;
+  }
+  .pageBaseSeminar4_image img {
+    display: none;
+  }
+  .textPage4SeminarBase {
+    font-size: 14px;
+  }
+  .titlePage4 {
+    width: auto;
+    padding: 25px 0;
+  }
+  .titlePage4_span {
+    font-size: 18px;
+  }
+  .pageBaseSeminar5 {
+    margin: 0 auto;
+  }
+
+  .contentPage5 {
+    margin: 138px auto;
+  }
+  .contentPage5_block {
+    width: 225px;
+    height: 225px;
+  }
+  .persentBlock5 {
+    font-size: 30px;
+  }
+  .title_leftColumnPage6 {
+    writing-mode: tb;
+    left: 25px;
+  }
+  .rightColumnPage6_row span {
+    font-size: 16px;
+  }
+  .rightColumnPage6_row {
+    margin-top: 20px;
+  }
+  .rightColumnPage6_row:last-child {
+    margin-bottom: 37px;
+  }
+  .leftColumnPage7_title {
+    writing-mode: tb;
+  }
+  .rightColumnPage8,
+  .rightColumnPage9 {
+    padding: 0 0 44px 10px;
+    width: 50%;
+  }
+  .rightColumnPage9 {
+    padding-top: 108px;
+    padding-bottom: 66px;
+  }
+  .rightColumnPage9_row:not(:first-child)::before {
+    margin: 33px 0;
+  }
+}
+@media screen and (max-width: 800px) and (min-width: 701px) {
+  .pageBaseSeminar1,
+  .pageBaseSeminar2,
+  .pageBaseSeminar3,
+  .pageBaseSeminar4,
+  .blockPage5,
+  .pageBaseSeminar6,
+  .pageBaseSeminar7,
+  .pageBaseSeminar8,
+  .pageBaseSeminar9,
+  .pageBaseSeminar10 {
+    width: 640px;
+    margin: 0 auto;
+  }
+  .rightColumnPage2,
+  .rightColumnPage3,
+  .rightColumnPage6,
+  .rightColumnPage7 {
+    padding: 0 30px;
+  }
+  .logoSpadokText {
+    width: 240px;
+    margin-left: -20px;
+    margin-top: -25px;
+  }
+  .pageBaseSeminar1_row_text {
+    padding-top: 52px;
+    font-size: 26px;
+    width: 300px;
+  }
+  .title_leftColumnPage2,
+  .pageBaseSeminar4_header {
+    font-size: 29px;
+  }
+  .titlePage2,
+  .titlePage3 {
+    padding-bottom: 20px;
+    font-size: 22px;
+  }
+  .titlePage2::before,
+  .titlePage3::before {
+    margin: 29px 0;
+  }
+  .textPage2SeminarBase {
+    font-size: 14px;
+  }
+  .rightColumnPage3 {
+    margin: 0;
+    padding-left: 50px;
+  }
+  .imgTitle_leftColumnPage3 {
+    width: 200px;
+    height: 200px;
+  }
+  .textPage3SeminarBase {
+    margin-bottom: 71px;
+  }
+  .pageBaseSeminar4_header {
+    height: 150px;
+  }
+  .pageBaseSeminar4_image img {
+    width: 260px;
+    height: 259px;
+    right: -20px;
+    top: -59px;
+  }
+  .textPage4SeminarBase {
+    font-size: 14px;
+  }
+  .titlePage4 {
+    width: auto;
+    padding: 48px 0;
+  }
+  .titlePage4_span {
+    font-size: 18px;
+  }
+  .pageBaseSeminar5 {
+    margin: 0 auto;
+  }
+
+  .contentPage5 {
+    margin: 116px auto;
+  }
+  .contentPage5_block {
+    width: 270px;
+    height: 270px;
+  }
+  .title_leftColumnPage6 {
+    writing-mode: tb;
+    left: 25px;
+  }
+  .rightColumnPage6_row span {
+    font-size: 18px;
+  }
+  .rightColumnPage6_row {
+    margin-top: 37px;
+  }
+  .leftColumnPage7_title {
+    writing-mode: tb;
+  }
+  .rightColumnPage8,
+  .rightColumnPage9 {
+    padding: 14px 0 100px 10px;
+    width: 50%;
+  }
+  .rightColumnPage9 {
+    padding-top: 100px;
+    padding-left: 32px;
+  }
+  .rightColumnPage9_row:not(:first-child)::before {
+    margin: 34px 0;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 801px) {
+  .pageBaseSeminar1,
+  .pageBaseSeminar2,
+  .pageBaseSeminar3,
+  .pageBaseSeminar4,
+  .blockPage5,
+  .pageBaseSeminar6,
+  .pageBaseSeminar7,
+  .pageBaseSeminar8,
+  .pageBaseSeminar9,
+  .pageBaseSeminar10 {
+    width: 720px;
+    margin: 0 auto;
+  }
+  .rightColumnPage2,
+  .rightColumnPage3,
+  .rightColumnPage6,
+  .rightColumnPage7 {
+    padding: 0 30px;
+  }
+  .logoSpadokText {
+    width: 260px;
+    margin-left: -30px;
+    margin-top: -25px;
+  }
+  .pageBaseSeminar1_row_text {
+    padding-top: 52px;
+    font-size: 26px;
+    width: 300px;
+  }
+  .title_leftColumnPage2,
+  .pageBaseSeminar4_header {
+    font-size: 29px;
+  }
+  .titlePage2,
+  .titlePage3 {
+    padding-bottom: 20px;
+    font-size: 22px;
+  }
+  .titlePage2::before {
+    margin: 38px 0;
+  }
+  .textPage2SeminarBase {
+    font-size: 14px;
+  }
+  .rightColumnPage3 {
+    margin: 0;
+    padding-left: 50px;
+  }
+  .imgTitle_leftColumnPage3 {
+    width: 200px;
+    height: 200px;
+  }
+  .textPage3SeminarBase {
+    margin-bottom: 89px;
+  }
+  .pageBaseSeminar4_header {
+    height: 150px;
+  }
+  .pageBaseSeminar4_image img {
+    width: 270px;
+    height: 270px;
+    right: -26px;
+    top: -54px;
+  }
+  .textPage4SeminarBase {
+    font-size: 14px;
+  }
+  .titlePage4_span {
+    font-size: 18px;
+  }
+  .pageBaseSeminar5 {
+    margin: 0 auto;
+  }
+  .contentPage5 {
+    margin: 100px auto;
+  }
+  .contentPage5_block {
+    width: 300px;
+    height: 300px;
+  }
+  .title_leftColumnPage6 {
+    writing-mode: tb;
+    left: 25px;
+  }
+  .rightColumnPage6_row {
+    margin-top: 41px;
+  }
+  .leftColumnPage7_title {
+    writing-mode: tb;
+  }
+  .rightColumnPage8,
+  .rightColumnPage9 {
+    padding: 14px 40px 100px 22px;
+    width: 50%;
+  }
+  .rightColumnPage9 {
+    padding-top: 100px;
+    padding-left: 32px;
+  }
+  .rightColumnPage9_row:not(:first-child)::before {
+    margin: 34px 0;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width: 901px) {
+  .pageBaseSeminar1,
+  .pageBaseSeminar2,
+  .pageBaseSeminar3,
+  .pageBaseSeminar4,
+  .blockPage5,
+  .pageBaseSeminar6,
+  .pageBaseSeminar7,
+  .pageBaseSeminar8,
+  .pageBaseSeminar9,
+  .pageBaseSeminar10 {
+    width: 800px;
+    margin: 0 auto;
+  }
+  .rightColumnPage2,
+  .rightColumnPage3,
+  .rightColumnPage6,
+  .rightColumnPage7 {
+    padding: 0 30px;
+  }
+  .logoSpadokText {
+    width: 260px;
+    margin-left: -30px;
+    margin-top: -25px;
+  }
+  .pageBaseSeminar1_row_text {
+    font-size: 32px;
+  }
+  .title_leftColumnPage2,
+  .pageBaseSeminar4_header {
+    font-size: 29px;
+  }
+  .titlePage2,
+  .titlePage3 {
+    font-size: 22px;
+  }
+  .titlePage2::before {
+    margin: 41px 0;
+  }
+  .textPage2SeminarBase {
+    font-size: 14px;
+  }
+  .rightColumnPage3 {
+    margin: 0;
+    padding-left: 50px;
+  }
+  .imgTitle_leftColumnPage3 {
+    width: 200px;
+    height: 200px;
+  }
+  .textPage3SeminarBase {
+    margin-bottom: 89px;
+  }
+  .pageBaseSeminar4_image img {
+    width: 270px;
+    height: 270px;
+    right: -26px;
+    top: -17px;
+  }
+  .textPage4SeminarBase {
+    font-size: 14px;
+  }
+  .titlePage4_span {
+    font-size: 18px;
+  }
+  .contentPage5_block {
+    width: 330px;
+    height: 330px;
+  }
+  .pageBaseSeminar5 {
+    margin: 0 auto;
+  }
+  .contentPage5 {
+    margin: 80px auto;
+  }
+  .title_leftColumnPage6 {
+    writing-mode: tb;
+    left: 25px;
+  }
+  .rightColumnPage8,
+  .rightColumnPage9 {
+    padding: 14px 40px 100px 22px;
+    width: 50%;
+  }
+  .rightColumnPage9 {
+    padding-top: 110px;
+    padding-bottom: 110px;
+  }
+  .rightColumnPage9_row:not(:first-child)::before {
+    margin: 37px 0;
+  }
+}
+
+/*337+715*/

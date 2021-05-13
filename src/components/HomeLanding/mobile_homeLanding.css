@@ -38,12 +38,27 @@
   .homePage5 {
     margin: 0 50px;
   }
+
+  .homePage2_block_mobile {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .homePage2_block_mobile img {
+    width: 210px;
+  }
   .homePage2_rightColumn {
     margin: auto;
+  }
+  .homePage2_rightColumn_description {
+    margin-top: 10px;
   }
   .homePage2_rightColumn_description,
   .homePage5_rightColumn_title_description {
     margin-right: 50px;
+  }
+  .homePage2_rightColumn_line {
+    margin: 40px auto;
   }
   .homePage2_rightColumn_title,
   .homePage3_title,
@@ -53,24 +68,32 @@
     background: #bd1422;
     color: white;
     text-align: center;
-    height: 150px;
-    padding-top: 50px;
+    height: 100px;
+    padding-top: 30px;
     width: 100vw;
     margin-left: -50px;
+  }
+  .homePage3,
+  .homePage4 {
+    height: max-content;
+    margin-bottom: 10px;
   }
   .homePage3_title {
     margin-bottom: 50px;
   }
+  .homePage3_Background {
+    display: none;
+  }
 
-  .homePage3_footer {
+  /* .homePage3_footer {
     background: none;
     height: max-content;
     margin-bottom: 100px;
-  }
+  } */
   .homePage3_center {
     /* display: block; */
     padding: 0;
-    margin-bottom: 0;
+    margin-top: 0;
   }
   .homePage3_block {
     margin: 0 auto 20px auto;
@@ -137,6 +160,9 @@
   .homePage2_leftColumn {
     display: block;
   }
+  .homePage2_block_mobile {
+    display: none;
+  }
   .homePage2_leftColumn img {
     width: 300px;
     margin: 50px;
@@ -144,23 +170,27 @@
   .homePage2_rightColumn_description {
     margin: 0 50px;
   }
-  .homePage3_footer {
+  .homePage3_Background {
+    display: block;
+  }
+  /* .homePage3_footer {
     background: #bd1422;
     margin-bottom: 0;
     height: 200px;
     width: 100vw;
     margin-left: 0px;
-  }
+  } */
   .homePage3_center {
-    margin-bottom: -170px;
+    margin-top: -170px;
   }
   .homePage5_leftColumn {
     display: block;
     margin-top: 40px;
+    width: 250px;
   }
   .homePage5_leftColumn img {
     width: 200px;
-    margin: 70px 0 0 200px;
+    margin: 70px 0 0 110px;
   }
   .homePage5_rightColumn {
     width: 275px;

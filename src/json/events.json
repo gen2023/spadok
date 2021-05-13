@@ -1,5 +1,13 @@
 [
     
-    { "title": "Base seminar","start": "2021-04-15","end": "2021-04-18", "url":"/base", "color":"red" },
-    { "title": "Base seminar","start": "2021-07-15","end": "2021-07-18", "url":"/base" }
+    { "id":"04_1","title": "Базовый семинар","start": "2021-04-15","end": "2021-04-18", "url":"/base", "color":"red" },
+    { "id":"04_24","title": "Лечебный день","start": "2021-04-24", "color":"#170462","img":"http://spadok.icu/images/events_image/24_04_21.png" },
+    { "id":"05_23","title": "Перцептивное рисование","start": "2021-05-23", "img":"http://spadok.icu/images/events_image/23_05_21.png" },
+    { "id":"05_28","title": "Эстетическое моделирование лица","start": "2021-05-28","end": "2021-05-31", "img":"http://spadok.icu/images/events_image/28_05_21-30_05_21.png" },
+    { "id":"06_25","title": "Корекция опорно-двигательного аппарата","start": "2021-06-25","end": "2021-06-28", "img":"http://spadok.icu/images/events_image/25_06_21-27_06_21.png" },
+    { "id":"07_19","title": "Базовый семинар","start": "2021-07-15","end": "2021-07-19", "url":"/base" },    
+    { "id":"07_24","title": "Лечебный день","start": "2021-07-24", "color":"#170462","img":"http://spadok.icu/images/events_image/24_07_21.png" }
+    
+    
+    
   ]

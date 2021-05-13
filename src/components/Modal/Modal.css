@@ -69,7 +69,8 @@
 
 /*modal from video*/
 
-.contentModalVideo {
+.contentModalVideo,
+.contentModalEvent {
   flex-direction: column;
   justify-content: center;
   background: white;

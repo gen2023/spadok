@@ -3,7 +3,7 @@ import React from 'react';
 function Minimal() {
   return (
     <>
-      <div className="contentBlock column">
+      <div className="contentBlock">
         <div className="titleBlock">Минимальный </div>
         <div className="block">
           <div className="textCenter">

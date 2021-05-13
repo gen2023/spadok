@@ -1,0 +1,148 @@
+k-конечный
+
+	index->App->
+		1	../Pages/HomePage
+		2	../Pages/HomePageV1
+		3	../Pages/HomePageV2
+		4	../Pages/HomePageV3
+		5	../Pages/TrainingPage
+		6	
+		7	../Pages/ReviewsPage
+		8	../Pages/SeminarBasePage
+		9	../Pages/EventPage
+		10	../Pages/SchedulePage
+		11	../Pages/NotFoundPage
+		k	../services/routesNavigation
+---------------------------------------------------
+1
+	12	../components/Navigation';
+	к	../components/HomeLanding';
+
+---------------------------------------------------
+2
+	к	../components/HomeV1';
+	13	../components/NavigationV1';
+
+---------------------------------------------------
+3
+	к	../components/HomeV1';
+	13	../components/NavigationV1';
+
+---------------------------------------------------
+4
+	15	../components/Header';
+	14	../components/NavigationV3';
+
+---------------------------------------------------
+5
+	12	../components/Navigation';
+	к	../components/Baner';
+	16	../components/Package';
+	к	../components/App.css';
+
+---------------------------------------------------
+6
+
+---------------------------------------------------
+7
+	12	../components/Navigation';
+	17	../components/Review';
+	к	../json/reviews.json';
+
+---------------------------------------------------
+8
+	12	../components/Navigation';
+		../components/Seminar/Base';
+
+---------------------------------------------------
+9
+	12	../components/Navigation';
+	к	../components/MiniEvent';
+	к	../json/events.json';
+
+---------------------------------------------------
+10
+	к	../json/events.json';
+	12	../components/Navigation';
+
+---------------------------------------------------
+11
+	12	../components/Navigation';
+	к	../services/routesNavigation';
+---------------------------------------------------
+12
+	к	../json/navigation.json';
+	к	./navigation.css';
+
+---------------------------------------------------
+13
+	18	../Modal/ModalMobileMenu1';
+	к	./NavigationItemsV1';
+	к	../json/navigation1.json';
+	к	./navigationV1.css';
+
+---------------------------------------------------
+14
+	19	./NavigationItemsV3';
+	к	../json/navigation1.json';
+	к	./navigationV3.css';
+
+---------------------------------------------------
+15 ../components/Header';
+	20	../Modal/ModalMobileMenu1';
+	к	./header.css';
+
+-----------------------------------------------------
+16
+	21	../Modal/ModalPackage';
+	к	./PackageItems';
+	к	../json/package.json';
+-----------------------------------------------------
+17
+	22	./ReviewItems';
+	23	./ReviewVideoItems';
+	к	../../json/reviews.json';
+	к	../json/videoReviews.json';
+	к	./reviews.css';
+
+----------------------------------------------------
+18
+	к	./ModalMobileMenuItems';
+	к	../json/navigation1.json';
+	к	./Modal.css';
+	к	./ModalMobileMenu.css';
+
+--------------------------------------------------------
+19
+	к	./NavigationItemsV3';
+	к	../json/navigation1.json';
+	к	./navigationV3.css';
+
+----------------------------------------------------------
+20
+	к	./ModalMobileMenuItems';
+	к	../json/navigation1.json';
+	к	./Modal.css';
+	к	./ModalMobileMenu.css';
+
+-----------------------------------------------------
+21
+	к	./Modal.css';
+	к	./MobileModal.css';
+	24	../Package/VisiblePackage';
+
+--------------------------------------------------------
+22
+	к	../ButtonSubscribe';
+		
+---------------------------------------------------------
+23
+	к	../ButtonSubscribe';
+
+------------------------------------------------------
+24
+	к	./Mentor';
+	к	./Minimal';
+	к	./Vip';
+
+------------------------------------------------------

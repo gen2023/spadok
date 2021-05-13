@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
-// import propTypes from 'prop-types';
-// import { NavLink } from 'react-router-dom';
+import { Menu, MenuItem, MenuButton } from '@szhsin/react-menu';
+import '@szhsin/react-menu/dist/index.css';
 
-import ModalMobileMenu from '../Modal/ModalMobileMenu';
-import NavigationItem from './NavigationItems';
-
-// import routesNavigation from '../../services/routesNavigation';
 import list from '../../json/navigation.json';
 import './navigation.css';
 
@@ -13,29 +9,52 @@ export default class Navigation extends Component {
   state = {
     isModal: false,
   };
+
   leftMenu = () => {
     this.setState(prevState => ({
       isModal: !prevState.isModal,
     }));
   };
   render() {
-    const { isModal } = this.state;
+    // const { isModal } = this.state;
+    let menu = list.map(({ id, heading, submenu, link }) =>
+      submenu ? (
+        <Menu
+          key={id}
+          menuButton={
+            <MenuButton className="nav_link_sub">{heading}</MenuButton>
+          }
+        >
+          {submenu.map(({ id, heading, link }) => (
+            <MenuItem className="nav_link" key={id} href={link}>
+              {heading}
+            </MenuItem>
+          ))}
+        </Menu>
+      ) : (
+        <Menu
+          menuButton={
+            <MenuItem href={link} className="nav_link">
+              {heading}
+            </MenuItem>
+          }
+        ></Menu>
+      ),
+    );
+
     return (
       <>
-        <nav className="menu">
-          <ul className="nav">
-            {list.map(({ id, heading, link }) => (
-              <NavigationItem key={id} name={heading} link={link} />
-            ))}
-          </ul>
-        </nav>
-        <div className="mobile_menu">
-          <button
-            className="mobile_menu_button"
-            type="button"
-            onClick={this.leftMenu}
-          ></button>
-          {isModal && <ModalMobileMenu onToggle={this.leftMenu} />}
+        <div className="content">
+          <div className="menu_nav">{menu}</div>
+          <div className="mobile_menu">
+            <Menu
+              menuButton={
+                <MenuButton className="mobile_menu_button"></MenuButton>
+              }
+            >
+              {menu}
+            </Menu>
+          </div>
         </div>
       </>
     );

@@ -36,25 +36,29 @@ function HomeLanding() {
       </div>
       <div className="homePage2">
         <div className="homePage2_leftColumn">
-          <img src={home_block2} alt="logo" />
+          <img src={home_block2} alt="Spadok" />
         </div>
         <div className="homePage2_rightColumn">
           <div className="homePage2_rightColumn_title">О школе СПАДОК</div>
           <div className="homePage2_rightColumn_description">
-            Мы лечим и обучаем только тому, что знаем, умеем и любим сами.
-            <br />
-            <br />
+            <div className="homePage2_block_mobile">
+              <img src={home_block2} alt="Spadok" />
+            </div>
+            <b>
+              Мы лечим и обучаем только тому, что знаем, умеем и любим сами.
+            </b>
+            <div className="homePage2_rightColumn_line"></div>
             Помагаем всем, кто работает с телом (остеопатам, мануальным
             терапевтам, специалистам восстановительной и спортивной медицины)
             повысить свой уровень восприятия и .расширить спектрр своих услуг
-            <br />
-            <br />
-            Наш сумарный практический опыт работы более 100 лет.
+            <div className="homePage2_rightColumn_line"></div>
+            <b>Наш сумарный практический опыт работы более 100 лет.</b>
           </div>
         </div>
       </div>
       <div className="homePage3">
         <div className="homePage3_title">Мы предлагаем</div>
+        <div className="homePage3_Background"></div>
         <div className="homePage3_center">
           <div className="homePage3_block homePage3_block1">
             Обучающий проект по возрождению восприятия. Для всех кто связан с
@@ -97,7 +101,7 @@ function HomeLanding() {
             </Link>
           </div>
         </div>
-        <div className="homePage3_footer"></div>
+        {/* <div className="homePage3_footer"></div> */}
       </div>
       <div className="homePage4">
         <div className="homePage4_title">
@@ -106,7 +110,9 @@ function HomeLanding() {
         <div className="homePage4_reviews">
           <div className="homePage4_reviews_block">
             <div className="homePage4_reviews_block_face">
-              <img src={face1} alt="face1" />
+              <Link to="/reviews#review">
+                <img src={face1} alt="face1" />
+              </Link>
             </div>
             <div className="homePage4_reviews_block_name homePage4_reviews_block_name1">
               Косметолог-эстетист, тренер - преподаватель в Lash Art University
@@ -125,7 +131,9 @@ function HomeLanding() {
           </div>
           <div className="homePage4_reviews_block">
             <div className="homePage4_reviews_block_face">
-              <img src={face2} alt="face2" />
+              <Link to="/reviews#review">
+                <img src={face2} alt="face2" />
+              </Link>
             </div>
             <div className="homePage4_reviews_block_name">
               массажист, работающий перцептивными техниками
@@ -146,7 +154,9 @@ function HomeLanding() {
           </div>
           <div className="homePage4_reviews_block">
             <div className="homePage4_reviews_block_face">
-              <img src={face3} alt="face3" />
+              <Link to="/reviews#review">
+                <img src={face3} alt="face3" />
+              </Link>
             </div>
             <div className="homePage4_reviews_block_name">
               Обучающий тренер, арт-коуч

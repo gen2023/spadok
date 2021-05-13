@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import Navigation from '../components/Navigation';
 
-import routes from '../services/routes';
+import routes from '../services/routesNavigation';
 
 class NotFoundPage extends Component {
   render() {

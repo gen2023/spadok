@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { createPortal } from 'react-dom';
 import PropTypes from 'prop-types';
+
 import ModalMobileMenuItems from './ModalMobileMenuItems';
 
 import list from '../../json/navigation1.json';

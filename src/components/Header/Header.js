@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 
 import ModalMobileMenu from '../Modal/ModalMobileMenu1';
-// import NavigationItem from './NavigationItemsV1';
 
-// import list from '../../json/navigation1.json';
 import './header.css';
 
 import logo from '../../images/logo.png';

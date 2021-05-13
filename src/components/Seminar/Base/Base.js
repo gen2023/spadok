@@ -1,6 +1,6 @@
 import React from 'react';
-import '../seminar.css';
-import '../mobile_seminar.css';
+import './seminar.css';
+import './mobile_seminar.css';
 import logo from '../../../images/logo.png';
 import logoText from '../../../images/logo_text.png';
 import block3 from '../../../images/block3.png';
@@ -87,8 +87,8 @@ function Base() {
             />
           </div>
           <div className="rightColumnPage3">
-            <div className="titlePage2">
-              <span className="titlePage2_span">НА СЕМИНАРЕ ВЫ СМОЖЕТЕ:</span>
+            <div className="titlePage3">
+              <span className="titlePage3_span">НА СЕМИНАРЕ ВЫ СМОЖЕТЕ:</span>
             </div>
             <div className="textPage3SeminarBase">
               - <span className="nameBlockText">УВИДЕТЬ</span> тело по-новому и
@@ -112,16 +112,11 @@ function Base() {
             </div>
           </div>
         </div>
-        <div className="footerPageBaseSeminar3">
-          {/* ШКОЛА ПЕРЦПТИВНЫХ ТЕХНОЛОГИЙ */}
-        </div>
+        <div className="footerPageBaseSeminar3"></div>
       </div>
       <div className="pageBaseSeminar4">
         <div className="pageBaseSeminar4_header">
           <span className="pageBaseSeminar4_title">результат</span>
-          {/* <span className="pageBaseSeminar4_logo">
-            <img src={logo} alt="logo" />
-          </span> */}
           <span className="pageBaseSeminar4_image">
             <img src={block_result} alt="block result" />
           </span>
@@ -156,8 +151,8 @@ function Base() {
               <br />
               - на психоэмоциональном (понижать уровень эмоционального
               напряжения);
-              <br />- в окружающем пространстве в целом ( используя
-              психодинамические техники ).
+              <br />- в окружающем пространстве в целом (используя
+              психодинамические техники).
             </div>
             - Как можно улучшить те техники, которыми вы уже пользуетесь?
           </div>
@@ -183,9 +178,6 @@ function Base() {
         <div className="pageBaseSeminar2_row">
           <div className="leftColumnPage6">
             <div className="title_leftColumnPage6">ОСОБЕННОСТИ СЕМИНАРА</div>
-            {/* <div>
-              <img src={logo} alt="logo Spadok" />
-            </div> */}
           </div>
           <div className="rightColumnPage6">
             <div className="rightColumnPage6_title">ОСОБЕННОСТИ СЕМИНАРА</div>
@@ -212,9 +204,7 @@ function Base() {
             </div>
           </div>
         </div>
-        <div className="footerPageBaseSeminar6">
-          {/* ШКОЛА ПЕРЦПТИВНЫХ ТЕХНОЛОГИЙ */}
-        </div>
+        <div className="footerPageBaseSeminar6"></div>
       </div>
       <div className="pageBaseSeminar7">
         <div className="pageBaseSeminar2_row">
@@ -228,9 +218,6 @@ function Base() {
               <br />
               <span className="leftColumnPage7_title__">ведущие семинар</span>
             </div>
-            {/* <div>
-              <img src={logo} alt="logo Spadok" />
-            </div> */}
           </div>
           <div className="rightColumnPage6">
             <div className="rightColumnPage6_title">
@@ -238,37 +225,58 @@ function Base() {
               <br />
               <span className="rightColumnPage6_title__">ведущие семинар</span>
             </div>
-            <div className="rightColumnPage6_row">
+            <div className="rightColumnPage7_row">
               <img src={face1} alt="ico1" />
-              <span>
-                Елена Завгородняя Практический психолог, физиолог-реабилитолог.
-              </span>
+              <div>
+                <div className="titne_rightColumnPage7_row">
+                  Елена Завгородняя
+                </div>
+                <div className="description_rightColumnPage7_row">
+                  Практический психолог, физиолог-реабилитолог.
+                </div>
+              </div>
             </div>
-            <div className="rightColumnPage6_row">
+            <div className="rightColumnPage7_row">
               <img src={face2} alt="ico2" />
-              <span>Ирина Слабошпицкая физиолог-реабилитолог.</span>
+              <div>
+                <div className="titne_rightColumnPage7_row">
+                  Ирина Слабошпицкая
+                </div>
+                <div className="description_rightColumnPage7_row">
+                  физиолог-реабилитолог.
+                </div>
+              </div>
             </div>
-            <div className="rightColumnPage6_row">
+            <div className="rightColumnPage7_row">
               <img src={face3} alt="ico3" />
-              <span>Альберт Козачко физиолог-реабилитолог.</span>
+              <div>
+                <div className="titne_rightColumnPage7_row">
+                  Альберт Козачко
+                </div>
+                <div className="description_rightColumnPage7_row">
+                  физиолог-реабилитолог.
+                </div>
+              </div>
             </div>
-            <div className="rightColumnPage6_row">
+            <div className="rightColumnPage7_row">
               <img src={face4} alt="ico3" />
-              <span>Василий Малашина физиолог-реабилитолог.</span>
+              <div>
+                <div className="titne_rightColumnPage7_row">
+                  Василий Малашина
+                </div>
+                <div className="description_rightColumnPage7_row">
+                  физиолог-реабилитолог.
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div className="footerPageBaseSeminar7">
-          {/* ШКОЛА ПЕРЦПТИВНЫХ ТЕХНОЛОГИЙ */}
-        </div>
+        <div className="footerPageBaseSeminar7"></div>
       </div>
       <div className="pageBaseSeminar8">
         <div className="pageBaseSeminar2_row">
           <div className="leftColumnPage8">
-            {/* <div>
-              <img src={logo} alt="logo Spadok" />
-            </div> */}
-            <div className="title_leftColumnPage2">Работаем по плану</div>
+            <div className="title_leftColumnPage8">Работаем по плану</div>
           </div>
           <div className="rightColumnPage8">
             <div className="rightColumnPage8_title">Программа семина</div>
@@ -291,16 +299,11 @@ function Base() {
             </div>
           </div>
         </div>
-        <div className="footerPageBaseSeminar6">
-          {/* ШКОЛА ПЕРЦПТИВНЫХ ТЕХНОЛОГИЙ */}
-        </div>
+        <div className="footerPageBaseSeminar6"></div>
       </div>
       <div className="pageBaseSeminar9">
         <div className="pageBaseSeminar2_row">
           <div className="leftColumnPage9">
-            {/* <div>
-              <img src={logo} alt="logo Spadok" />
-            </div> */}
             <div className="title_leftColumnPage2">Наши контакты</div>
           </div>
           <div className="rightColumnPage9">
@@ -335,20 +338,17 @@ function Base() {
             </div>
           </div>
         </div>
-        {/* <div className="footerPageBaseSeminar6"> */}
-        {/* ШКОЛА ПЕРЦПТИВНЫХ ТЕХНОЛОГИЙ */}
-        {/* </div> */}
       </div>
       <div className="pageBaseSeminar10">
         <div className="pageBaseSeminar10_row">
           <div className="block_pageBaseSeminar10_row">
-            <div>Резюме</div>
+            <div className="title_block_pageBaseSeminar10_row">Резюме</div>
             <div className="description_block_pageBaseSeminar10_row">
               Понимание одного принципа избавляет от запоминания тысячи фактов
             </div>
-            {/* <div> */}
-            <img src={logo} alt="logo Spadok" />
-            {/* </div> */}
+            <div className="pageBaseSeminar10_logo">
+              <img src={logo} alt="logo Spadok" />
+            </div>
           </div>
         </div>
       </div>

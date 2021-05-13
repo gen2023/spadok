@@ -3,7 +3,7 @@
 .pageBaseSeminar2,
 .pageBaseSeminar3,
 .pageBaseSeminar4,
-.pageBaseSeminar5,
+/* .pageBaseSeminar5, */
 .pageBaseSeminar6,
 .pageBaseSeminar7,
 .pageBaseSeminar8,
@@ -11,12 +11,13 @@
 .pageBaseSeminar10 {
   text-align: center;
   width: 1000px;
-    margin: 0 auto;
+  margin: 0 auto;
+  height: 660px;
 }
-.pageBaseSeminar1_row{
-  display:flex;
+.pageBaseSeminar1_row {
+  display: flex;
   justify-content: space-between;
-  height: 450px;
+  height: 451px;
 }
 .titleSeminar {
   font-size: 25px;
@@ -27,16 +28,8 @@
 .titleSeminar_block {
   width: 400px;
   margin: 0 auto;
-  padding-top:40px;
+  padding-top: 40px;
 }
-/* .titleSeminar::after {
-  display: block;
-  content: '';
-  margin: auto;
-  padding-top: 15px;
-  width: 200px;
-  border-bottom: 7px solid #170462;
-} */
 .blockLogo {
   width: 145px;
 }
@@ -50,14 +43,14 @@
 }
 .logoSpadokText {
   width: 350px;
-    margin-left: -98px;
-    margin-top: -35px;
+  margin-left: -98px;
+  margin-top: -35px;
 }
-.pageBaseSeminar1_row_text{
+.pageBaseSeminar1_row_text {
   padding-top: 100px;
   font-weight: 700;
-  font-size: 40px;
-  width: 370px;
+  font-size: 39px;
+  width: 440px;
   text-align: right;
 }
 .footerPageBaseSeminar1 {
@@ -77,27 +70,28 @@
 .leftColumnPage7 {
   background-color: #bd1422;
   color: white;
-  width: 70%;
+  width: 370px;
   position: relative;
 }
 /* .leftColumnPage2 img, */
 .leftColumnPage8 img,
-.leftColumnPage9 img   {
+.leftColumnPage9 img {
   width: 100px;
   float: right;
   margin-top: 50px;
   right: 20px;
   position: absolute;
 }
-.titlePage2 {
-  padding-bottom: 50px;
+.titlePage2,
+.titlePage3 {
+  padding-bottom: 52px;
   font-size: 33px;
 }
-.titlePage2::before {
+.titlePage2::before,
+.titlePage3::before {
   display: block;
   content: '';
   margin: 50px 0;
-  /* padding-top: 50px; */
   width: 200px;
   border-bottom: 7px solid #170462;
 }
@@ -105,24 +99,25 @@
 .rightColumnPage3,
 .rightColumnPage6,
 .rightColumnPage7 {
-  margin-left: 70px;
-  margin-right: 110px;
+  padding-left: 50px;
+  padding-right: 50px;
   text-align: left;
-  /* width: 170%; */
+  width: 630px;
 }
-.title_leftColumnPage2 {
+.title_leftColumnPage2,
+.title_leftColumnPage8 {
   position: absolute;
   right: 20px;
   bottom: 100px;
   font-size: 40px;
 }
 .textPage2SeminarBase {
-  text-align: justify;
-    font-size: 16px;
-    line-height: 1.3;
-    margin-bottom: 30px;
-    font-weight: 700;
-    letter-spacing: 0.5px;
+  /* text-align: justify; */
+  font-size: 15px;
+  line-height: 1.3;
+  margin-bottom: 69px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
 .footerPageBaseSeminar2,
@@ -130,13 +125,8 @@
 .footerPageBaseSeminar6,
 .footerPageBaseSeminar7 {
   background-color: #170462;
-  color: white;
   width: 100%;
   height: 60px;
-  line-height: 60px;
-  text-align: center;
-  letter-spacing: 3px;
-    font-size: 11px;
 }
 .nameBlockText {
   font-weight: 700;
@@ -151,27 +141,29 @@
 .leftColumnPage3 {
   background-color: #170462;
   color: white;
-  width: 35%;
+  width: 290px;
   position: relative;
 }
-.imgTitle_leftColumnPage3{
-width: 350px;
-height:350px;
-border-radius: 50%;
-position: absolute;
-left:0;
+.imgTitle_leftColumnPage3 {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+}
+.titlePage3::before {
+  border-bottom: 7px solid #bd1422;
 }
 .rightColumnPage3 {
-  margin-left: 170px;
-  /* text-align: left; */
+  margin-left: 70px;
 }
-.textPage3SeminarBase{
+.textPage3SeminarBase {
   text-align: justify;
-    font-size: 16px;
-    line-height: 1.3;
-    margin-bottom: 30px;
-    /* font-weight: 700; */
-    letter-spacing: 0.5px;
+  font-size: 16px;
+  line-height: 1.3;
+  margin-bottom: 100px;
+  margin-top: 32px;
+  letter-spacing: 0.5px;
 }
 /*page 4-------------------------------------------------*/
 .Podtext_textPage2SeminarBase {
@@ -213,11 +205,11 @@ left:0;
 }
 .titlePage4 {
   padding: 65px 0;
-  /* width: 100vw; */
+  width: 600px;
 }
 .titlePage4_span {
   color: #bd1422;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
 }
 .textPage4SeminarBase {
@@ -232,8 +224,8 @@ left:0;
   background-color: #170462;
   color: black;
   text-align: center;
-  width:100vw;
-  margin-left: -7%;
+  /* width: 100vw;
+  margin-left: -7%; */
 }
 .blockPage5 {
   background-color: #bd1422;
@@ -244,14 +236,13 @@ left:0;
 .contentPage5 {
   display: flex;
   justify-content: space-around;
-  margin: 100px 150px;
+  margin: 75px 150px;
 }
 .contentPage5_block {
   background-color: white;
   border-radius: 50%;
   width: 350px;
   height: 350px;
-  /* margin: 0 50px; */
   padding: 11%;
 }
 .persentBlock5 {
@@ -279,46 +270,62 @@ left:0;
 
 .title_leftColumnPage6 {
   position: absolute;
-  /* left: 75px; */
   top: 100px;
   font-size: 40px;
 }
-.rightColumnPage6_title{
-  display:none;
+.rightColumnPage6_title {
+  display: none;
 }
-.rightColumnPage6_row {
+.rightColumnPage6_row,
+.rightColumnPage7_row {
   display: flex;
   align-items: center;
   margin-top: 50px;
   font-size: 19px;
   text-align: justify;
 }
-.rightColumnPage6_row:first-child {
+.rightColumnPage6_row:first-child,
+.rightColumnPage7_row:first-child {
   margin-top: 100px;
 }
 .rightColumnPage6_row:last-child {
-  margin-bottom: 100px;
+  margin-bottom: 61px;
 }
 .rightColumnPage6_row img {
-  width: 200px;
+  width: 130px;
   margin-right: 20px;
 }
-.footerPageBaseSeminar6 {
+.footerPageBaseSeminar6,
+.leftColumnPage7,
+.leftColumnPage9 {
   background-color: #170462;
 }
 /*page 7-------------------------------------------------*/
-.leftColumnPage7{
-  background-color: #170462;
-  width: 45%;
-}
-.leftColumnPage7_title{
+.leftColumnPage7_title {
   /* position: absolute; */
   padding-top: 100px;
   font-size: 40px;
   line-height: 1.2;
 }
-.leftColumnPage7_title__{
-  font-size:20px;
+.leftColumnPage7_title__ {
+  font-size: 25px;
+}
+.rightColumnPage7_row {
+  margin-top: 10px;
+}
+.rightColumnPage7_row:last-child {
+  margin-bottom: 10px;
+}
+.rightColumnPage7_row img {
+  width: 138px;
+  margin-right: 20px;
+}
+.titne_rightColumnPage7_row {
+  font-weight: 500;
+}
+.description_rightColumnPage7_row {
+  color: #bd1422;
+  font-size: 17px;
 }
 .footerPageBaseSeminar7 {
   background-color: #bd1422;
@@ -332,68 +339,73 @@ left:0;
   position: relative;
 }
 .rightColumnPage8,
-.rightColumnPage9{
-  padding: 300px 110px 100px 70px;
+.rightColumnPage9 {
+  padding: 50px 110px 100px 70px;
   text-align: left;
-  
+  width: 50%;
 }
-.rightColumnPage8_title{
-  margin-bottom: 50px;
+.rightColumnPage8_title {
+  margin-bottom: 72px;
 }
 .rightColumnPage8_title::before {
   display: block;
   content: '';
-  margin: 50px 0;
-  /* padding-top: 50px; */
+  margin: 55px 0;
   width: 200px;
   border-bottom: 7px solid #bd1422;
 }
-.rightColumnPage8_title_description{
-  font-size:15px;
+.rightColumnPage8_title_description {
+  font-size: 15px;
 }
 /*page 9-------------------------------------------------*/
 .leftColumnPage9 {
   background-color: #170462;
 }
-
 .rightColumnPage9_row:not(:first-child)::before {
   display: block;
   content: '';
-  margin: 50px 0;
-  /* padding-top: 50px; */
+  margin: 55px 0;
   width: 200px;
   border-bottom: 7px solid #bd1422;
 }
-.rightColumnPage9_row_title{
+.rightColumnPage9_row_title {
   font-weight: 700;
 }
-.rightColumnPage9_row_description{
-  font-size: 16px;
+.rightColumnPage9_row_description {
+  font-size: 14px;
 }
 /*page 10-------------------------------------------------*/
-.pageBaseSeminar10_row{
+.pageBaseSeminar10_row {
   background-color: #bd1422;
-  padding: 50px 0;
+  padding: 55px 0;
 }
-.block_pageBaseSeminar10_row{
+.block_pageBaseSeminar10_row {
   background-color: white;
-    border-radius: 50%;
-    width: 650px;
-    height: 650px;
-    margin: 0 auto;
-    padding-top: 9%;
-    position: relative;
-    text-align: center;
-    font-weight: 700;
+  border-radius: 50%;
+  width: 550px;
+  height: 550px;
+  margin: 0 auto;
+  padding-top: 9%;
+  position: relative;
+  text-align: center;
+  font-weight: 700;
 }
-.block_pageBaseSeminar10_row img {
-  width: 200px;
-bottom: 0;
-position: absolute;
-left:35%;
+.pageBaseSeminar10_logo {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
 }
-.description_block_pageBaseSeminar10_row{
+.pageBaseSeminar10_logo img {
+  width: 150px;
+}
+.title_block_pageBaseSeminar10_row {
+  font-size: 25px;
+}
+.description_block_pageBaseSeminar10_row {
   font-size: 40px;
-  margin: 50px 95px 0 95px;
+  margin: 50px 70px 0 70px;
   line-height: 44px;
+  color: #170462;
 }
+/*424/400*/

@@ -9,7 +9,19 @@
       "id": "2",
       "heading": "Обучение",
       "link": "/training",
-      "title":"Обучение"   
+      "title":"Обучение",
+      "submenu": [ {
+          "submenuId": "2-1",
+          "heading": "Онлайн",
+          "link": "/training",
+          "title":"Онлайн"   
+        },
+        {
+          "submenuId": "2-2",
+          "heading": "Офлайн",
+          "link": "/training",
+          "title":"Офлайн"   
+        }]
     },
     {
       "id": "3",
@@ -21,6 +33,6 @@
       "id": "4",
       "heading": "Расписание",
       "link":"/schedule",
-      "title":"Расписание"    
+      "title":"Расписание"   
     }
   ]

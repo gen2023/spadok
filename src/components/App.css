@@ -1,10 +1,27 @@
-ul {
+.fc-event-title {
+  cursor: pointer;
+}
+
+.fc-event-title,
+.fc-event-time {
+  white-space: normal;
+}
+a {
+  text-decoration: none;
+}
+ul li,
+li {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 .content {
   width: 1200px;
+  margin: auto;
+  font-size: 20px;
+  line-height: 1.55;
+}
+.contentBasePage {
   margin: auto;
   font-size: 20px;
   line-height: 1.55;
@@ -75,9 +92,10 @@ ul {
   width: 30px;
   background-size: 29px;
   border: none;
+  position: fixed;
 }
-.menu {
-  display: block;
+.menu_nav {
+  display: flex;
 }
 .PageHomeV1 {
   background: url(../images/homeV1Background.png) center no-repeat;
@@ -147,8 +165,13 @@ ul {
   .mobile_menu {
     display: block;
   }
-  .menu {
+  .menu_nav {
     display: none;
+  }
+  .package {
+    height: 150px;
+    width: 200px;
+    margin: 20px auto;
   }
 }
 @media screen and (max-width: 768px) and (min-width: 426px) {
@@ -165,8 +188,13 @@ ul {
   .mobile_menu {
     display: none;
   }
-  .menu {
-    display: block;
+  .menu_nav {
+    display: flex;
+  }
+  .package {
+    height: 200px;
+    width: 300px;
+    margin: 20px auto;
   }
 }
 @media screen and (max-width: 1000px) and (min-width: 769px) {

@@ -1,20 +1,19 @@
-.nav {
+.menu_nav {
   display: flex;
   align-items: center;
-  margin: 10px 0;
-  margin-left: 100px;
+  padding: 10px 0;
+  padding-left: 100px;
+  background: #ebebeb;
 }
-.nav_link {
-  text-transform: uppercase;
-  font-size: 14px;
-  margin-right: 20px;
+.nav_link,
+.nav_link_sub {
   text-decoration: none;
   color: black;
+  cursor: pointer;
+  background: none;
+  border: none;
 }
-.nav_link:last-child {
-  margin-right: 0;
-}
-.active {
-  color: #0173aa;
-  border-bottom: 3px solid #0173aa;
+.nav_link:hover {
+  background: #cccccc;
+  border-radius: 20px;
 }
