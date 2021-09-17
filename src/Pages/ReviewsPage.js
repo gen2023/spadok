@@ -8,6 +8,9 @@ import Review from '../components/Review';
 import data from '../json/reviews.json';
 
 class ReviewsPage extends Component {
+  componentDidMount() {
+    document.title = 'Spadok - отзывы';
+  }
   readText() {
     const textResult = data.map(text => text.text)[0];
     return textResult; //console.log(textResult);

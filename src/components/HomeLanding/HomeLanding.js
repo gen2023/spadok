@@ -6,7 +6,7 @@ import './mobile_homeLanding.css';
 
 import logo from '../../images/logo.png';
 import logoText from '../../images/logo_text.png';
-import home_block2 from '../../images/home_block2.png';
+//import home_block2 from '../../images/home_block2.png';
 import homePage3_ico1 from '../../images/homePage3_ico1.png';
 import homePage3_ico2 from '../../images/homePage3_ico2.png';
 import homePage3_ico3 from '../../images/homePage3_ico3.png';
@@ -36,13 +36,13 @@ function HomeLanding() {
       </div>
       <div className="homePage2">
         <div className="homePage2_leftColumn">
-          <img src={home_block2} alt="Spadok" />
+          <img src="" alt="Spadok" />
         </div>
         <div className="homePage2_rightColumn">
           <div className="homePage2_rightColumn_title">О школе СПАДОК</div>
           <div className="homePage2_rightColumn_description">
             <div className="homePage2_block_mobile">
-              <img src={home_block2} alt="Spadok" />
+              <img src="" alt="Spadok" />
             </div>
             <b>
               Мы лечим и обучаем только тому, что знаем, умеем и любим сами.

@@ -13,7 +13,7 @@
       "submenu": [ {
           "submenuId": "2-1",
           "heading": "Онлайн",
-          "link": "/training",
+          "link": "/online",
           "title":"Онлайн"   
         },
         {
@@ -34,5 +34,11 @@
       "heading": "Расписание",
       "link":"/schedule",
       "title":"Расписание"   
+    },
+    {
+      "id": "5",
+      "heading": "Публикации",
+      "link":"/publications",
+      "title":"Публикации"  
     }
   ]

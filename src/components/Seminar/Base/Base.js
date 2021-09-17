@@ -1,8 +1,7 @@
 import React from 'react';
-import './seminar.css';
-import './mobile_seminar.css';
+import '../seminar.css';
+import '../mobile_seminar.css';
 import logo from '../../../images/logo.png';
-import logoText from '../../../images/logo_text.png';
 import block3 from '../../../images/block3.png';
 import block_result from '../../../images/block_result.png';
 import ico1 from '../../../images/ico1_bloc6.png';
@@ -25,11 +24,6 @@ function Base() {
         <div className="pageBaseSeminar1_row">
           <div className="blockLogo">
             <img className="logoSpadok" src={logo} alt="logo Spadok" />
-            <img
-              className="logoSpadokText"
-              src={logoText}
-              alt="logo Spadok text"
-            />
           </div>
           <div className="pageBaseSeminar1_row_text">
             ПЕРЦЕПЦИЯ теория и практика (1й базовый)

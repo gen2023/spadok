@@ -1,21 +1,21 @@
 import React, { Component } from 'react';
 
 import Navigation from '../components/Navigation';
-import Base from '../components/Seminar/Base';
+import PerseptionBase from '../components/Seminar/PerceptionBase';
 
-class SeminarBasePage extends Component {
+class SeminarPerseptionBasePage extends Component {
   componentDidMount() {
-    document.title = 'Spadok - базовый семинар';
+    document.title = 'Spadok - основы перцепции';
   }
   render() {
     return (
       <>
         <Navigation />
         <div className="contentBasePage">
-          <Base />
+          <PerseptionBase />
         </div>
       </>
     );
   }
 }
-export default SeminarBasePage;
+export default SeminarPerseptionBasePage;

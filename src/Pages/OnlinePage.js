@@ -1,21 +1,23 @@
 import React, { Component } from 'react';
 
 import Navigation from '../components/Navigation';
-import HomeLanding from '../components/HomeLanding';
+import online from '../images/on_line.jpg';
 
-class HomePage extends Component {
+import '../components/App.css';
+
+class OnlinePage extends Component {
   componentDidMount() {
-    document.title = 'Spadok - главная страница';
+    document.title = 'Spadok - обучение онлайн';
   }
   render() {
     return (
       <>
         <Navigation />
         <div className="content">
-          <HomeLanding />
+          <img src={online} alt="Spadok" />
         </div>
       </>
     );
   }
 }
-export default HomePage;
+export default OnlinePage;

@@ -7,5 +7,6 @@ export default {
   reviews: '/reviews',
   schedule: '/schedule',
   base: '/base',
+  perseptionBase: '/perseptionBase',
   event: '/event/:eventId',
 };

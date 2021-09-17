@@ -11,11 +11,15 @@ import ModalEvent from '../components/Modal/ModalEvent';
 class SchedulePage extends Component {
   state = { events: events, currentEvent: null, isModal: false };
 
+  componentDidMount() {
+    document.title = 'Spadok - расписание';
+  }
+
   handleEventClick = info => {
     this.setState({ currentEvent: info.event.id });
     if (info.event.url === '') {
       this.toggleModal(info.event.id);
-      console.log('hello');
+      //console.log('hello');
     }
     // console.log(info.event.id);
     return info.event.id;
