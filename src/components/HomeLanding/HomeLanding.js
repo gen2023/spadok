@@ -23,7 +23,7 @@ function HomeLanding() {
       <div className="homePage1">
         <div className="homePage1_leftColumn">
           <div className="homePage1_leftColumn_title">
-            Школа перцептивных технологий
+            Школа перцептивного обучения
           </div>
           <img src={logoText} alt="logoText" />
         </div>

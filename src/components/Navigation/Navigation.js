@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Menu, MenuItem, MenuButton } from '@szhsin/react-menu';
+import { Menu, MenuItem, MenuButton, SubMenu } from '@szhsin/react-menu';
 import '@szhsin/react-menu/dist/index.css';
 
 import list from '../../json/navigation.json';
@@ -17,22 +17,25 @@ export default class Navigation extends Component {
   };
   render() {
     // const { isModal } = this.state;
-    let menu = list.map(({ id, heading, submenu, link }) =>
+    const menus = list.map(({ heading, submenu, link }) =>
       submenu ? (
         <Menu
-          key={id}
+          key={heading}
           menuButton={
-            <MenuButton className="nav_link_sub">{heading}</MenuButton>
+            <MenuButton key={heading} className="nav_link_sub">
+              {heading}
+            </MenuButton>
           }
         >
-          {submenu.map(({ id, heading, link }) => (
-            <MenuItem className="nav_link" key={id} href={link}>
+          {submenu.map(({ heading, link }) => (
+            <MenuItem className="nav_link" key={heading} href={link}>
               {heading}
             </MenuItem>
           ))}
         </Menu>
       ) : (
         <Menu
+          key={heading}
           menuButton={
             <MenuItem href={link} className="nav_link">
               {heading}
@@ -41,18 +44,32 @@ export default class Navigation extends Component {
         ></Menu>
       ),
     );
-
+    const menu_mobile = list.map(({ heading, submenu, link }) =>
+      submenu ? (
+        <SubMenu key={heading} label={heading}>
+          {submenu.map(({ heading, link }) => (
+            <MenuItem className="nav_link" key={heading} href={link}>
+              {heading}
+            </MenuItem>
+          ))}
+        </SubMenu>
+      ) : (
+        <MenuItem key={heading} href={link} className="nav_link">
+          {heading}
+        </MenuItem>
+      ),
+    );
     return (
       <>
         <div className="content">
-          <div className="menu_nav">{menu}</div>
+          <div className="menu_nav">{menus}</div>
           <div className="mobile_menu">
             <Menu
               menuButton={
-                <MenuButton className="mobile_menu_button"></MenuButton>
+                <MenuButton className="mobile_menu_button"> </MenuButton>
               }
             >
-              {menu}
+              {menu_mobile}
             </Menu>
           </div>
         </div>

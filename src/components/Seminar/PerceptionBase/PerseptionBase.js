@@ -17,9 +17,7 @@ function PerseptionBase() {
     <>
       <div className="pageBaseSeminar1">
         <div className="titleSeminar">
-          <div className="titleSeminar_block">
-            ШКОЛА ПЕРЦЕПТИВНЫХ ТЕХНОЛОГИЙ
-          </div>
+          <div className="titleSeminar_block">ШКОЛА ПЕРЦЕПТИВНОГО ОБУЧЕНИЯ</div>
         </div>
         <div className="pagePerseptionBaseSeminar1_row">
           <div className="blockLogo">
@@ -29,7 +27,7 @@ function PerseptionBase() {
             ОСНОВЫ ПЕРЦЕПЦИИ - 2й аккредитованный семинар
           </div>
         </div>
-        <div>
+        <div className="pageBaseSeminar1_about">
           <span>
             Это семинар о феномене перцепции и его практическом применении в
             коррекции дисфункций физического тела.
@@ -227,7 +225,7 @@ function PerseptionBase() {
         </div>
         <div className="footerPageBaseSeminar6"></div>
       </div>
-      <div className="pagePerseptionBaseSeminar7">
+      <div className="pageBaseSeminar7">
         <div className="pageBaseSeminar2_row">
           <div className="leftColumnPage7">
             <div className="leftColumnPage7_title">
@@ -307,7 +305,7 @@ function PerseptionBase() {
           </div>
           <div className="rightColumnPagePerseption8">
             <div className="rightColumnPage8_title">Первый день:</div>
-            <div>
+            <div className="rightColumnPage8_titleDay">
               <span>
                 <b>
                   <i>ВЗАИМОСВЯЗЬ ПСИХОЭМОЦИОНАЛЬНЫХ СОСТОЯНИЙ И СИСТЕМЫ DSV.</i>
@@ -353,7 +351,7 @@ function PerseptionBase() {
           </div>
           <div className="rightColumnPagePerseption8">
             <div className="rightColumnPage8_title">Второй день:</div>
-            <div>
+            <div className="rightColumnPage8_titleDay">
               <span>
                 <b>
                   <i>
@@ -379,7 +377,7 @@ function PerseptionBase() {
           </div>
           <div className="rightColumnPagePerseption8">
             <div className="rightColumnPage8_title">Третий день:</div>
-            <div>
+            <div className="rightColumnPage8_titleDay">
               <span>
                 <b>
                   <i>

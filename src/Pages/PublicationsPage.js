@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
 
 import Navigation from '../components/Navigation';
+// import HomeLanding from '../components/HomeLanding';
 
 import logo from '../images/logo.png';
 import logoText from '../images/logo_text.png';
-import Review from '../components/Review';
-import data from '../json/reviews.json';
+import Publication from '../components/Publication';
+import data from '../json/publication.json';
 
-class ReviewsPage extends Component {
+class PublicationsPage extends Component {
   componentDidMount() {
-    document.title = 'Spadok - отзывы';
+    document.title = 'Spadok - публикации';
   }
+
   readText() {
     const textResult = data.map(text => text.text)[0];
     return textResult; //console.log(textResult);
@@ -34,11 +36,11 @@ class ReviewsPage extends Component {
               <img src={logoText} alt="logoText" />
             </div>
           </div>
-          <div className="footer_titleRewiews">ОТЗЫВЫ</div>
-          <Review />
+          <div className="footer_titleRewiews">ПУБЛИКАЦИИ</div>
+          <Publication />
         </div>
       </>
     );
   }
 }
-export default ReviewsPage;
+export default PublicationsPage;

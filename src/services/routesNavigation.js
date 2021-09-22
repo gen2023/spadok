@@ -1,12 +1,12 @@
 export default {
   home: '/',
-  homeV1: '/homeV1',
-  homeV2: '/homeV2',
-  homeV3: '/homeV3',
-  training: '/training',
+  trainingOnline: '/trainingOnline',
+  trainingOffline: '/trainingOffline',
   reviews: '/reviews',
+  publications: '/publications',
   schedule: '/schedule',
   base: '/base',
   perseptionBase: '/perseptionBase',
+  perseptionStart: '/perseptionStart',
   event: '/event/:eventId',
 };

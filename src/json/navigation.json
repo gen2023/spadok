@@ -13,13 +13,13 @@
       "submenu": [ {
           "submenuId": "2-1",
           "heading": "Онлайн",
-          "link": "/online",
+          "link": "/trainingOnline",
           "title":"Онлайн"   
         },
         {
           "submenuId": "2-2",
           "heading": "Офлайн",
-          "link": "/training",
+          "link": "/trainingOffline",
           "title":"Офлайн"   
         }]
     },

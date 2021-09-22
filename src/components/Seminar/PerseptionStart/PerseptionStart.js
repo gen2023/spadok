@@ -17,23 +17,15 @@ function PerseptionStart() {
     <>
       <div className="pageBaseSeminar1">
         <div className="titleSeminar">
-          <div className="titleSeminar_block">
-            ШКОЛА ПЕРЦЕПТИВНЫХ ТЕХНОЛОГИЙ
-          </div>
+          <div className="titleSeminar_block">ШКОЛА ПЕРЦЕПТИВНОГО ОБУЧЕНИЯ</div>
         </div>
-        <div className="pagePerseptionBaseSeminar1_row">
+        <div className="pageBaseSeminar1_row">
           <div className="blockLogo">
             <img className="logoSpadok" src={logo} alt="logo Spadok" />
           </div>
           <div className="pageStartSeminar1_row_text">
             ВВЕДЕНИЕ В ПЕРЦЕПЦИЮ - 1й аккредитованный семинар
           </div>
-        </div>
-        <div>
-          <span>
-            Это семинар о феномене перцепции и его практическом применении в
-            коррекции дисфункций физического тела.
-          </span>
         </div>
         <div className="footerPageBaseSeminar1">Киев, ул. Почайнинская, 70</div>
       </div>
@@ -126,7 +118,7 @@ function PerseptionStart() {
           </div>
         </div>
       </div>
-      <div className="pagePerseptionBaseSeminar7">
+      <div className="pageBaseSeminar7">
         <div className="pageBaseSeminar2_row">
           <div className="leftColumnPage7">
             <div className="leftColumnPage7_title">

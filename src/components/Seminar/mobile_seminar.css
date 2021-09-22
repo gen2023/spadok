@@ -4,6 +4,7 @@
   }
   .pageBaseSeminar1_row_text {
     margin: auto;
+    float: right;
   }
   .contentPage5 {
     margin: 95px 0px;
@@ -19,7 +20,11 @@
   .pageBaseSeminar6,
   .pageBaseSeminar7,
   .pageBaseSeminar8,
-  .pageBaseSeminar9 {
+  .pageBaseSeminar9,
+  .pagePerseptionStartSeminar3,
+  .pagePerseptionBaseSeminar6,
+  .pagePerseptionBaseSeminar8,
+  .pagePerseptionStartSeminar8 {
     width: auto;
     margin: 0 50px;
     height: auto;
@@ -27,15 +32,23 @@
   .rightColumnPage2,
   .rightColumnPage3,
   .rightColumnPage6,
-  .rightColumnPage7 {
+  .rightColumnPage7,
+  .rightColumnPagePerseption8 {
     padding: 0;
     width: auto;
   }
   .pageBaseSeminar1 {
     height: 600px;
   }
+  .pagePerseptionBaseSeminar1_row {
+    height: 310px;
+  }
   .pageBaseSeminar1_row {
     height: 391px;
+  }
+  .pageBaseSeminar1_about {
+    font-size: 15px;
+    margin-bottom: 10px;
   }
   .logoSpadok {
     width: 150px;
@@ -50,7 +63,8 @@
     margin-left: -25px;
     margin-top: -15px;
   }
-  .pageBaseSeminar1_row_text {
+  .pageBaseSeminar1_row_text,
+  .pageStartSeminar1_row_text {
     padding-top: 50px;
     font-weight: 600;
     font-size: 13px;
@@ -103,7 +117,8 @@
     padding: 0;
     width: auto;
   }
-  .rightColumnPage6_row {
+  .rightColumnPage6_row,
+  .rightColumnPage7_row {
     display: block;
   }
 
@@ -134,12 +149,14 @@
     width: 200px;
     border-bottom: 7px solid #bd1422;
   }
-  .rightColumnPage6_row img {
+  .rightColumnPage6_row img,
+  .rightColumnPage7_row img {
     width: 100px;
     display: block;
     float: left;
   }
-  .rightColumnPage6_title__ {
+  .rightColumnPage6_title__,
+  .rightColumnPage8_titleDay {
     font-size: 15px;
   }
   .pageBaseSeminar10,

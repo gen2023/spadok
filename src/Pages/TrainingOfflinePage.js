@@ -1,23 +1,23 @@
 import React, { Component } from 'react';
 
 import Navigation from '../components/Navigation';
-import online from '../images/on_line.jpg';
+import ofline from '../images/ofline.jpg';
 
 import '../components/App.css';
 
-class OnlinePage extends Component {
+class TrainingOfflinePage extends Component {
   componentDidMount() {
-    document.title = 'Spadok - обучение онлайн';
+    document.title = 'Spadok - обучение офлайн';
   }
   render() {
     return (
       <>
         <Navigation />
         <div className="content">
-          <img src={online} alt="Spadok" />
+          <img src={ofline} alt="Spadok" />
         </div>
       </>
     );
   }
 }
-export default OnlinePage;
+export default TrainingOfflinePage;

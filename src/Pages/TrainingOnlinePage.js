@@ -6,7 +6,10 @@ import Package from '../components/Package';
 
 import '../components/App.css';
 
-class TrainingPage extends Component {
+class TrainingOnlinePage extends Component {
+  componentDidMount() {
+    document.title = 'Spadok - обучение онлайн';
+  }
   render() {
     return (
       <>
@@ -19,4 +22,4 @@ class TrainingPage extends Component {
     );
   }
 }
-export default TrainingPage;
+export default TrainingOnlinePage;
