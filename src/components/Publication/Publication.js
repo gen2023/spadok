@@ -13,8 +13,14 @@ class Publication extends Component {
       <>
         <div>
           <ul className="contentRow">
-            {dataText.map(({ id, date, text, foto }) => (
-              <PublicationItems key={id} date={date} text={text} foto={foto} />
+            {dataText.map(({ id, date, text, foto, title }) => (
+              <PublicationItems
+                key={id}
+                date={date}
+                text={text}
+                foto={foto}
+                title={title}
+              />
             ))}
           </ul>
         </div>
