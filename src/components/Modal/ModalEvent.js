@@ -17,7 +17,6 @@ class ModalEvent extends Component {
     currentEvent: [],
   };
   componentDidMount() {
-    console.log(this.props.currentEvent);
     const eventId = this.props.currentEvent;
     const event = events.find(ev => ev.id === eventId);
     this.setState({ currentEvent: event });

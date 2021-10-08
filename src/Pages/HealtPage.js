@@ -36,7 +36,7 @@ class HealtPage extends Component {
               <img src={logoText} alt="logoText" />
             </div>
           </div>
-          <div className="footer_titleRewiews">ПУБЛИКАЦИИ</div>
+          <div className="footer_titleRewiews">ПУБЛИКАЦИИ О ЗДОРОВЬЕ</div>
           <Healt />
         </div>
       </>

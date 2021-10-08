@@ -60,7 +60,9 @@
   width: 200px;
   border-bottom: 7px solid #bd1422;
 }
-.homePage2_block_mobile{display:none;}
+.homePage2_block_mobile {
+  display: none;
+}
 .homePage2_leftColumn img {
   width: 500px;
   margin: 100px;
@@ -128,6 +130,31 @@
 }
 .homePage3_block_button img {
   width: 20px;
+}
+.viewLink {
+  -webkit-user-select: none;
+  user-select: none;
+  border: none;
+  border-radius: 0.25rem;
+  box-shadow: 0 3px 7px rgb(0 0 0 / 13%), 0 0.6px 2px rgb(0 0 0 / 10%);
+  min-width: 10rem;
+  padding: 10px;
+  position: absolute;
+  background: white;
+  margin-left: 21px;
+  display: flex;
+  flex-direction: column;
+}
+.viewLink a {
+  color: #212529;
+  margin-bottom: 10px;
+}
+.viewLink a:last-child {
+  margin-bottom: 0px;
+}
+.viewLink a:hover {
+  background-color: #cccccc;
+  border-radius: 20px;
 }
 /*page 4-------------------------------------------------*/
 .homePage4_title {
