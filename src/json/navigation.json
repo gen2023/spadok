@@ -37,8 +37,20 @@
     },
     {
       "id": "5",
-      "heading": "Публикации",
-      "link":"/publications",
-      "title":"Публикации"  
+      "heading": "Статьи",
+      "link": "/training",
+      "title":"Статьи",
+      "submenu": [ {
+          "submenuId": "5-1",
+          "heading": "Публикации",
+          "link": "/publications",
+          "title":"Публикации"   
+        },
+        {
+          "submenuId": "5-2",
+          "heading": "Здоровье",
+          "link": "/health",
+          "title":"Здоровье"   
+        }]
     }
   ]

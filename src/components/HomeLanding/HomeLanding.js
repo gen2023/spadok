@@ -66,7 +66,7 @@ function HomeLanding() {
             <div className="homePage3_block_img">
               <img src={homePage3_ico1} alt="block1" />
             </div>
-            <Link to="/training">
+            <Link to="/trainingOffline">
               ОБУЧЕНИЕ
               <div className="homePage3_block_button">
                 <img src={homePage3_more} alt="block3" />
@@ -81,7 +81,7 @@ function HomeLanding() {
             <div className="homePage3_block_img">
               <img src={homePage3_ico2} alt="block2" />
             </div>
-            <Link to="">
+            <Link to="/health">
               ЗДОРОВЬЕ
               <div className="homePage3_block_button">
                 <img src={homePage3_more} alt="block3" />
