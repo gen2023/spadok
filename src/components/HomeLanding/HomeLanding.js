@@ -14,6 +14,8 @@ import homePage3_more from '../../images/more.png';
 import face1 from '../../images/home_block4_reviews1.png';
 import face2 from '../../images/home_block4_reviews2.png';
 import face3 from '../../images/home_block4_reviews3.png';
+import face1v from '../../images/face1.png';
+import face2v from '../../images/face2.png';
 import star from '../../images/star.png';
 import homePage5 from '../../images/block3.png';
 
@@ -121,6 +123,82 @@ class HomeLanding extends Component {
             </div>
           </div>
           {/* <div className="homePage3_footer"></div> */}
+        </div>
+        <div className="pageBaseSeminar7">
+          <div className="pageBaseSeminar2_row">
+            <div className="leftColumnPage2">
+              <div className="leftColumnPage7_title">
+                <span>
+                  МАСТЕРА
+                  <br />
+                  ШКОЛЫ
+                </span>
+                <br />
+                <span className="leftColumnPage7_title__">ведущие семинар</span>
+              </div>
+            </div>
+            <div className="rightColumnPage6">
+              <div className="rightColumnPage6_title">
+                <span>МАСТЕРА ШКОЛЫ</span>
+                <br />
+                <span className="rightColumnPage6_title__">
+                  ведущие семинар
+                </span>
+              </div>
+              <div className="rightColumnPage7_row">
+                <img src={face2v} alt="ico2" />
+                <div>
+                  <div className="titne_rightColumnPage7_row">
+                    Ирина Слабошпицкая
+                  </div>
+                  <div className="description_rightColumnPage7_row">
+                    физиолог-реабилитолог, Мастер Школы перцептивный технологий
+                    СПАДОК, Мастер школы «Соматической интеграции» Ю.Чикурова,
+                    специалист в области биологического центрирования, мягких
+                    мануальных техник, коррекции последствий родовых травм у
+                    детей, очной и дистанционной коррекции психодинамических
+                    состояний, краниосакральной терапии, фасциальной пластики
+                    лица и тела, гармонизации парных отношений, личностного
+                    роста. Практический опыт в области телесных практик более 20
+                    лет.
+                  </div>
+                </div>
+              </div>
+              <div className="rightColumnPage7_row">
+                <img src={face1v} alt="ico1" />
+                <div>
+                  <div className="titne_rightColumnPage7_row">
+                    Елена Завгородняя
+                  </div>
+                  <div className="description_rightColumnPage7_row">
+                    Практический психолог, физиолог-реабилитолог, Мастер Школы
+                    перцептивный технологий СПАДОК, специалист школы
+                    «Интегральная психонейробиодинамика» В.Филимонова,
+                    специалист в области краниосакральной терапии, остеопатии,
+                    психосоматических расстройств, очной и дистанционной
+                    коррекции психодинамических состояний, эстетическом
+                    моделировании лица и тела, фасциальной пластики тела.
+                    Практический опыт в области телесных практик более 20 лет.
+                  </div>
+                </div>
+              </div>
+              {/* <div className="rightColumnPage7_row">
+              <img src={face3} alt="ico2" />
+              <div>
+                <div className="titne_rightColumnPage7_row">
+                  СТРЕПЕТОВА ЕЛЕНА
+                </div>
+                <div className="description_rightColumnPage7_row">
+                  доцент, кандидат медицинских наук, преподаватель кафедры
+                  анестезиологии Национального медицинского университета имени
+                  А. А. Богомольца, практический врач анестезиолог, постоянно в
+                  своей практике использующий навыки перцептивной анатомии.
+                </div>
+              </div>
+            </div> */}
+            </div>
+          </div>
+          {/* <div className="footerPageBaseSeminar7"></div> */}
         </div>
         <div className="homePage4">
           <div className="homePage4_title">

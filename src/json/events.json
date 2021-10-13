@@ -7,9 +7,11 @@
     { "id":"06_25","title": "Корекция опорно-двигательного аппарата","start": "2021-06-25","end": "2021-06-28", "img":"http://spadok.icu/images/events_image/25_06_21-27_06_21.png" },
     { "id":"07_19","title": "Базовый семинар","start": "2021-07-15","end": "2021-07-19", "url":"/base" },    
     { "id":"07_24","title": "Лечебный день","start": "2021-07-24", "color":"#170462","img":"http://spadok.icu/images/events_image/24_07_21.png" },
+    { "id":"10_23","title": "Клубный день","start": "2021-09-11", "color":"#bd1422", "img":"http://spadok.icu/images/events_image/event_11_09_21.png" },
     { "id":"07_24","title": "Введение в перцепцию","start": "2021-09-16", "color":"#170462", "url":"/perseptionStart" },
-    { "id":"07_24","title": "Основы перцепции","start": "2021-09-17", "end": "2021-09-20", "color":"#170462", "url":"/perseptionBase" }
-    
+    { "id":"07_24","title": "Основы перцепции","start": "2021-09-17", "end": "2021-09-20", "color":"#170462", "url":"/perseptionBase" },
+    { "id":"10_23","title": "Клубный день","start": "2021-10-23", "color":"#bd1422", "img":"http://spadok.icu/images/events_image/event_23_10_21.png" },
+    { "id":"10_24","title": "Введение в перцепцию","start": "2021-10-24", "color":"#170462", "url":"/perseptionStart" }
     
     
   ]

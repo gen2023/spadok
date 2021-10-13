@@ -144,6 +144,10 @@ li {
 .packageContent span {
   margin: auto;
 }
+.imgSeminar {
+  width: 500px;
+  height: 300px;
+}
 @media screen and (max-width: 425px) {
   .content {
     width: 100%;
@@ -173,6 +177,11 @@ li {
     width: 200px;
     margin: 20px auto;
   }
+  .imgSeminar {
+    width: min-content;
+    height: 170px;
+    margin: 20px auto;
+  }
 }
 @media screen and (max-width: 768px) and (min-width: 426px) {
   .content {
@@ -196,10 +205,19 @@ li {
     width: 300px;
     margin: 20px auto;
   }
+  .imgSeminar {
+    width: min-content;
+    height: auto;
+    margin: 20px auto;
+  }
 }
 @media screen and (max-width: 1000px) and (min-width: 769px) {
   .content {
     width: 100vw;
     font-size: 15px;
+  }
+  .imgSeminar {
+    width: 370px;
+    height: auto;
   }
 }

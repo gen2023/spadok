@@ -9,7 +9,7 @@ import block_result from '../../../images/block_result.png';
 // import ico3 from '../../../images/ico3_bloc6.png';
 import face1 from '../../../images/face1.png';
 import face2 from '../../../images/face2.png';
-import face3 from '../../../images/face3.png';
+// import face3 from '../../../images/face3.png';
 //import face4 from '../../../images/face4.png';
 
 function PerseptionStart() {
@@ -138,24 +138,6 @@ function PerseptionStart() {
               <span className="rightColumnPage6_title__">ведущие семинар</span>
             </div>
             <div className="rightColumnPage7_row">
-              <img src={face1} alt="ico1" />
-              <div>
-                <div className="titne_rightColumnPage7_row">
-                  Елена Завгородняя
-                </div>
-                <div className="description_rightColumnPage7_row">
-                  Практический психолог, физиолог-реабилитолог, Мастер Школы
-                  перцептивный технологий СПАДОК, специалист школы «Интегральная
-                  психонейробиодинамика» В.Филимонова, специалист в области
-                  краниосакральной терапии, остеопатии, психосоматических
-                  расстройств, очной и дистанционной коррекции психодинамических
-                  состояний, эстетическом моделировании лица и тела, фасциальной
-                  пластики тела. Практический опыт в области телесных практик
-                  более 20 лет.
-                </div>
-              </div>
-            </div>
-            <div className="rightColumnPage7_row">
               <img src={face2} alt="ico2" />
               <div>
                 <div className="titne_rightColumnPage7_row">
@@ -174,6 +156,24 @@ function PerseptionStart() {
               </div>
             </div>
             <div className="rightColumnPage7_row">
+              <img src={face1} alt="ico1" />
+              <div>
+                <div className="titne_rightColumnPage7_row">
+                  Елена Завгородняя
+                </div>
+                <div className="description_rightColumnPage7_row">
+                  Практический психолог, физиолог-реабилитолог, Мастер Школы
+                  перцептивный технологий СПАДОК, специалист школы «Интегральная
+                  психонейробиодинамика» В.Филимонова, специалист в области
+                  краниосакральной терапии, остеопатии, психосоматических
+                  расстройств, очной и дистанционной коррекции психодинамических
+                  состояний, эстетическом моделировании лица и тела, фасциальной
+                  пластики тела. Практический опыт в области телесных практик
+                  более 20 лет.
+                </div>
+              </div>
+            </div>
+            {/* <div className="rightColumnPage7_row">
               <img src={face3} alt="ico2" />
               <div>
                 <div className="titne_rightColumnPage7_row">
@@ -186,7 +186,7 @@ function PerseptionStart() {
                   своей практике использующий навыки перцептивной анатомии.
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="footerPageBaseSeminar7"></div>
